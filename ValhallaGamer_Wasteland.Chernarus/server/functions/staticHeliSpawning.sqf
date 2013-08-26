@@ -1,10 +1,3 @@
-//	@file Version: 1.0
-//	@file Name: staticHeliSpawning.sqf
-//	@file Author: [404] Costlyy
-//	@file Created: 20/12/2012 21:00
-//	@file Description: Random static helis
-//	@file Args:
-
 if(!X_Server) exitWith {};
 
 private ["_counter","_position","_markerName","_marker","_hint","_newPos","_countActual", "_i", "_doSpawnWreck"];
@@ -12,7 +5,7 @@ _counter = 0;
 _countActual = 0;
 _i = 0;
 
-while {_counter < 8} do // 8 helis spawn at the beginning
+while {_counter < 24} do // 24 helis spawn at the beginning
 {
 	_selectedMarker = floor (random 24);
     _position = getMarkerPos format ["heliSpawn_%1", _selectedMarker];
