@@ -36,8 +36,8 @@ class Mission
 	randomSeed=10079095;
 	class Intel
 	{
-		briefingName="404Wasteland - Chernarus [v3.0b]";
-		briefingDescription="Wasteland is a harsh survival sandbox - http://www.404games.co.uk";
+		briefingName="Valhalla Gamer - Wasteland [v1.0]";
+		briefingDescription="Wasteland is a harsh survival sandbox - http://www.valhallagamer.com";
 		resistanceWest=0;
 		startWeather=0.25;
 		forecastWeather=0.25;
