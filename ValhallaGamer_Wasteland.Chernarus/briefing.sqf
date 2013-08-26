@@ -1,5 +1,5 @@
 player createDiarySubject ["ValhallaGamer", "Valhalla Gamer"];
-player createDiarySubject ["Changelog", "Valhalla Gamer Wasteland Change Log"];
+player createDiarySubject ["Changelog", "VG Wasteland Change Log"];
 player createDiarySubject ["Wasteland", "What is Wasteland?"];
 
 player createDiaryRecord["Changelog",
