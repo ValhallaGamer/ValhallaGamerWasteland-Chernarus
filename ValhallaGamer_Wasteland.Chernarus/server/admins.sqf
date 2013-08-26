@@ -9,6 +9,6 @@ administrators = [""
                     ];
 publicVariable "administrators";
 
-serverAdministrators = ["3467584" \\simwah
+serverAdministrators = ["3467584" //simwah
                     ]; 
 publicVariable "serverAdministrators";
