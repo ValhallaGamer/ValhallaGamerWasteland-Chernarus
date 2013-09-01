@@ -1,9 +1,8 @@
-
-//	@file Version: 1.0
 //	@file Name: vehicleCreation.sqf
-//	@file Author: [404] Deadbeat, [404] Costlyy
+//	@file Author: [404] Deadbeat, [404] Costlyy, simwah
 //	@file Created: 20/11/2012 05:19
 //	@file Args:
+//   veh = [this, Delay, Deserted timer, Respawns, Effect, Static] execVM "vehicle.sqf"
 
 if(!X_Server) exitWith {};
 
@@ -25,8 +24,8 @@ if (_type == 0) then {
     clearWeaponCargoGlobal _car;
 
 	//Set Cars Attributes
-    _car setFuel (0.50);
-    _car setDamage (random 0.50);
+    _car setFuel (1);
+    _car setDamage (0);
     _car setDir (random 360);
 	_car setVelocity [0,0,1];
     [_car] call randomWeapons;
@@ -41,7 +40,7 @@ if (_type == 1) then {
     _cartype = militaryVehicles select (random (count militaryVehicles - 1));
     _car = createVehicle [_cartype,_pos, [], 30, "None"];
     _car setpos [getpos _car select 0,getpos _car select 1,0];
-	_car setVehicleInit "nul=[this, 300, 0, 0, false] execVM 'server\functions\vehicle.sqf'";
+	_car setVehicleInit "nul=[this, 300, 3600, 0, false] execVM 'server\functions\vehicle.sqf'";
 	processInitCommands;
     
 	//Clear Cars Inventory
@@ -49,8 +48,8 @@ if (_type == 1) then {
     clearWeaponCargoGlobal _car;
 
 	//Set Cars Attributes
-    _car setFuel (0.50);
-    _car setDamage (random 0.50);
+    _car setFuel (1);
+    _car setDamage (0);
     _car setDir (random 360);
 	_car setVelocity [0,0,1];
     [_car] call randomWeapons;
@@ -65,7 +64,7 @@ if (_type == 2) then {
     _cartype = armedMilitaryVehicles select (random (count armedMilitaryVehicles - 1));
     _car = createVehicle [_cartype,_pos, [], 30, "None"];
     _car setpos [getpos _car select 0,getpos _car select 1,0];
-    _car setVehicleInit "nul=[this, 300, 0, 0, false] execVM 'server\functions\vehicle.sqf'";
+    _car setVehicleInit "nul=[this, 300, 3600, 0, false] execVM 'server\functions\vehicle.sqf'";
 	processInitCommands;
 
 	//Clear Cars Inventory
@@ -73,8 +72,8 @@ if (_type == 2) then {
     clearWeaponCargoGlobal _car;
 
 	//Set Cars Attributes
-    _car setFuel (0.50);
-    _car setDamage (random 0.50);
+    _car setFuel (1);
+    _car setDamage (0);
     _car setDir (random 360);
     _car setVehicleAmmo (random 0.90);
 	_car setVelocity [0,0,1];

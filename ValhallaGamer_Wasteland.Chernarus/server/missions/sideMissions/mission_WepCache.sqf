@@ -1,6 +1,5 @@
-//	@file Version: 1.0
 //	@file Name: mission_WepCache.sqf
-//	@file Author: [404] Deadbeat, [404] Costlyy
+//	@file Author: [404] Deadbeat, [404] Costlyy, simwah
 //	@file Created: 08/12/2012 15:19
 //	@file Args:
 #include "setup.sqf"
@@ -43,7 +42,7 @@ _hint = parseText format ["<t align='center' color='%2' shadow='2' size='1.75'>S
 [nil,nil,rHINT,_hint] call RE;
 
 CivGrpS = createGroup civilian;
-[CivGrpS,_randomPos] spawn createSmallGroup;
+[CivGrpS,_randomPos] spawn createLargeGroup;
 
 diag_log format["WASTELAND SERVER - Side Mission Waiting to be Finished: %1",_missionType];
 #ifdef __A2NET__

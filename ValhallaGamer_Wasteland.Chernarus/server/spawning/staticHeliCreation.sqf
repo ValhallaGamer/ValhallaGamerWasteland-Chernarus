@@ -1,6 +1,5 @@
-//	@file Version: 1.0
 //	@file Name: staticHeliCreation.sqf
-//	@file Author: [404] Costlyy
+//	@file Author: [404] Costlyy, simwah
 //	@file Created: 20/12/2012 21:00
 //	@file Description: Random static helis
 //	@file Args: [int (0 = not wreck | 1 = wreck), array (position)]
@@ -11,7 +10,7 @@ private["_spawnPos", "_spawnType", "_currHeli"];
 
 _isWreck = _this select 0;
 _spawnPos = _this select 1;
-_nerfBoxes = ["basicUS","basicUS2","basicRU","basicRU2","basicGER","basicPMC","basicSpecial","basicSpecial2","basicSpecial3"];
+_nerfBoxes = ["basicUS","basicUS2","basicRU","basicRU2","basicGER"];
 
 if (_isWreck == 0) then {
 	//diag_log "Spawning heli complete...";
@@ -19,6 +18,8 @@ if (_isWreck == 0) then {
 	_currHeli = createVehicle [_spawnType,_spawnPos,[], 50,"None"]; 
 	
 	_currHeli setpos [getpos _currHeli select 0,getpos _currHeli select 1,0];
+	//   veh = [this, Delay, Deserted timer, Respawns, Effect, Static] execVM "vehicle.sqf"
+	_currHeli setVehicleInit "nul=[this, 300, 0, 0, false, false, "clearMagazineCargoGlobal this; clearWeaponCargoGlobal this;"] execVM 'server\functions\vehicle.sqf'";
 	_currHeliLocation = getPosATL _currHeli;
     
 	clearMagazineCargoGlobal _currHeli;

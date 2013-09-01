@@ -1,15 +1,15 @@
 //	@file Version: 1.0
 //	@file Name: dropLoot.sqf
-//	@file Author: [404] Costlyy
+//	@file Author: [404] Costlyy, simwah
 //	@file Created: 30th May 13
 //	@file Args: Unit
 
 _chance = random 1;
 _unit = _this select 0 select 0;
 
-if (_chance <= 0.35) then {
-	_amount = 75;
-	_amount = _amount + round (random 50);
+if (_chance <= 0.5) then {
+	_amount = 100;
+	_amount = _amount + round (random 200);
     _unitPos = position _unit;
     
 	_droppedCash = "Evmoney" createVehicle _unitPos; 

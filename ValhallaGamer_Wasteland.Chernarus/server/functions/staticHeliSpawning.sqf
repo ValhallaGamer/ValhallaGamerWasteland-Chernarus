@@ -5,9 +5,9 @@ _counter = 0;
 _countActual = 0;
 _i = 0;
 
-while {_counter < 24} do // 24 helis spawn at the beginning
+while {_counter < 20} do // 20 helis spawn at the beginning
 {
-	_selectedMarker = floor (random 24);
+	_selectedMarker = floor (random 40);
     _position = getMarkerPos format ["heliSpawn_%1", _selectedMarker];
     _newPos = [_position, 25, 50, 1, 0, 60 * (pi / 180), 0] call BIS_fnc_findSafePos;
 	[0, _newPos] call staticHeliCreation;
@@ -20,7 +20,7 @@ while {_counter < 24} do // 24 helis spawn at the beginning
 
 //{diag_log format["Heli %1 = %2",_forEachIndex, _x];} forEach currentStaticHelis;
 
-for "_i" from 1 to 24 do {
+for "_i" from 1 to 40 do {
     _doSpawnWreck = true;
     
     { // Check if current iteration already exists as a live heli...

@@ -1,6 +1,5 @@
-//	@file Version: 1.0
 //	@file Name: missionDefines.sqf
-//	@file Author: [404] Deadbeat, [404] Costlyy
+//	@file Author: [404] Deadbeat, [404] Costlyy, simwah
 //	@file Created: 08/12/2012 15:19
 
 //Main Mission Colour = #52bf90 - Light blue
@@ -15,7 +14,7 @@
 
 #else
 
-#define mainMissionTimeout 1500
+#define mainMissionTimeout 1200
 #define mainMissionDelayTime 600
 
 #endif

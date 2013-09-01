@@ -1,6 +1,5 @@
-//	@file Version: 1.0
 //	@file Name: mission_AirWreck.sqf
-//	@file Author: [404] Deadbeat, [404] Costlyy
+//	@file Author: [404] Deadbeat, [404] Costlyy, simwah
 //	@file Created: 08/12/2012 15:19
 //	@file Args:
 #include "setup.sqf"
@@ -14,7 +13,7 @@ private ["_result","_missionMarkerName","_missionType","_startTime","_returnData
 _result = 0;
 _missionMarkerName = "AirWreck_Marker";
 _missionType = "Aircraft Wreck";
-_nerfBoxes = ["basicUS","basicUS2","basicRU","basicRU2","basicGER","basicPMC","basicSpecial","basicSpecial2","basicSpecial3"];
+_nerfBoxes = ["basicSpecial","basicSpecial2","basicSpecial3"];
 #ifdef __A2NET__
 _startTime = floor(netTime);
 #else

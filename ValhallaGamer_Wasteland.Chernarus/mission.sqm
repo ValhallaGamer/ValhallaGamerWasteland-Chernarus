@@ -2917,7 +2917,7 @@ class Mission
 	};
 	class Markers
 	{
-		items=906;
+		items=922;
 		class Item0
 		{
 			position[]={10472.047,6,2300.7461};
@@ -7679,7 +7679,7 @@ class Mission
 		};
 		class Item792
 		{
-			position[]={4889.7969,9,2413.7659};
+			position[]={4684.7207,9,2530.7346};
 			name="heliSpawn_8";
 			type="Empty";
 			colorName="ColorGreen";
@@ -7721,7 +7721,7 @@ class Mission
 		};
 		class Item798
 		{
-			position[]={12111.478,158.97487,12706.884};
+			position[]={11819.452,158.89999,12813.932};
 			name="heliSpawn_14";
 			type="Empty";
 			colorName="ColorGreen";
@@ -8473,6 +8473,118 @@ class Mission
 			name="Mission_50";
 			type="Empty";
 			colorName="ColorOrange";
+		};
+		class Item906
+		{
+			position[]={1700.9263,160.25291,5224.9834};
+			name="heliSpawn_25";
+			type="Empty";
+			colorName="ColorGreen";
+		};
+		class Item907
+		{
+			position[]={4174.895,339,10872.583};
+			name="heliSpawn_26";
+			type="Empty";
+			colorName="ColorGreen";
+		};
+		class Item908
+		{
+			position[]={4873.9453,339,9682.9082};
+			name="heliSpawn_27";
+			type="Empty";
+			colorName="ColorGreen";
+		};
+		class Item909
+		{
+			position[]={10410.327,7.7481294,1969.9054};
+			name="heliSpawn_28";
+			type="Empty";
+			colorName="ColorGreen";
+		};
+		class Item910
+		{
+			position[]={13255.358,6.0199909,10007.94};
+			name="heliSpawn_29";
+			type="Empty";
+			colorName="ColorGreen";
+		};
+		class Item911
+		{
+			position[]={11654.934,53.611691,9602.9775};
+			name="heliSpawn_30";
+			type="Empty";
+			colorName="ColorGreen";
+		};
+		class Item912
+		{
+			position[]={9210.8652,251.51624,11213.305};
+			name="heliSpawn_31";
+			type="Empty";
+			colorName="ColorGreen";
+		};
+		class Item913
+		{
+			position[]={2657.2244,120.31808,2407.6145};
+			name="heliSpawn_32";
+			type="Empty";
+			colorName="ColorGreen";
+		};
+		class Item914
+		{
+			position[]={1638.9474,5.9886842,2112.1709};
+			name="heliSpawn_33";
+			type="Empty";
+			colorName="ColorGreen";
+		};
+		class Item915
+		{
+			position[]={12436.69,159,12595.556};
+			name="heliSpawn_34";
+			type="Empty";
+			colorName="ColorGreen";
+		};
+		class Item916
+		{
+			position[]={13649.482,3.7487221,11165.008};
+			name="heliSpawn_35";
+			type="Empty";
+			colorName="ColorGreen";
+		};
+		class Item917
+		{
+			position[]={6875.0767,384.8111,11652.807};
+			name="heliSpawn_36";
+			type="Empty";
+			colorName="ColorGreen";
+		};
+		class Item918
+		{
+			position[]={13698.797,46.208324,2893.3557};
+			name="heliSpawn_37";
+			type="Empty";
+			colorName="ColorGreen";
+		};
+		class Item919
+		{
+			position[]={946.41693,114.15894,4533.8975};
+			name="heliSpawn_38";
+			type="Empty";
+			colorName="ColorGreen";
+		};
+		class Item920
+		{
+			position[]={5117.0171,8.9428682,2281.1975};
+			name="heliSpawn_39";
+			type="Empty";
+			colorName="ColorGreen";
+		};
+		class Item921
+		{
+			position[]={8371.7852,12.237659,3189.9307};
+			name="heliSpawn_40";
+			type="Empty";
+			colorName="ColorGreen";
 		};
 	};
 };

@@ -1,6 +1,5 @@
-//	@file Version: 1.0
 //	@file Name: mainMissionController.sqf
-//	@file Author: [404] Deadbeat, [404] Costlyy
+//	@file Author: [404] Deadbeat, [404] Costlyy, simwah
 //	@file Created: 08/12/2012 15:19
 #include "setup.sqf"
 #include "mainMissions\mainMissionDefines.sqf";
@@ -19,7 +18,6 @@ _MMarray = [[mission_SupplyDrop,"mission_SupplyDrop"],
             [mission_LightTank,"mission_LightTank"],
             [mission_MBT,"mission_MBT"],
             [mission_Outpost,"mission_Outpost"],
-            [mission_RadarTruck,"mission_RadarTruck"],
             [mission_VIP,"mission_VIP"]];
             
 _lastMission = "nomission";
