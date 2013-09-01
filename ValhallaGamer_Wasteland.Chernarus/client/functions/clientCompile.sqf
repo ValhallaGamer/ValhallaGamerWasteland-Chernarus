@@ -1,6 +1,5 @@
-//	@file Version: 1.0
 //	@file Name: clientCompile.sqf
-//	@file Author: [404] Deadbeat, [404] Costlyy
+//	@file Author: [404] Deadbeat, [404] Costlyy, simwah
 //	@file Created: 20/11/2012 05:19
 //	@file Args:
 
@@ -26,7 +25,6 @@ timeSync = compile preprocessFileLineNumbers "client\functions\clientTimeSync.sq
 
 // Update scripts
 updateMissionsMarkers = compile preprocessFileLineNumbers "client\functions\updatePlayerMissionMarkers.sqf";
-updateRadarMarkers = compile preprocessFileLineNumbers "client\functions\updatePlayerRadarMarkers.sqf";
 updateTeamKiller = compile preprocessFileLineNumbers "client\functions\updateTeamKiller.sqf";
 
 // Team-kill system

@@ -1,6 +1,5 @@
-//@file Version: 1.0
 //@file Name: init.sqf
-//@file Author: [404] Deadbeat, [404] Costlyy
+//@file Author: [404] Deadbeat, [404] Costlyy, simwah
 //@file Created: 20/11/2012 05:19
 //@file Description: The client init.
 
@@ -19,7 +18,6 @@ groupManagmentActive = false;
 pvar_PlayerTeamKiller = objNull;
 doCancelAction = false;
 currentMissionsMarkers = [];
-currentRadarMarkers = [];
 
 //Initialization Variables
 playerCompiledScripts = false;
@@ -53,7 +51,6 @@ waituntil {!(IsNull (findDisplay 46))};
 
 "currentDate" addPublicVariableEventHandler {[] call timeSync};
 "clientMissionMarkers" addPublicVariableEventHandler {[] call updateMissionsMarkers};
-"clientRadarMarkers" addPublicVariableEventHandler {[] call updateRadarMarkers};
 "pvar_teamKillList" addPublicVariableEventHandler {[] call updateTeamKiller};
 "publicVar_teamkillMessage" addPublicVariableEventHandler {if(local(_this select 1)) then {[] spawn teamkillMessage;};};
 
@@ -67,7 +64,6 @@ waituntil {!(IsNull (findDisplay 46))};
 [] execVM "client\functions\playerTags.sqf";
 [] execVM "client\functions\groupTags.sqf";
 [] call updateMissionsMarkers;
-[] call updateRadarMarkers;
 if (isNil "FZF_IC_INIT") then   {
 	call compile preprocessFileLineNumbers "client\functions\newPlayerIcons.sqf";
 };

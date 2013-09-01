@@ -1,14 +1,7 @@
-//	@file Version: 1.0
 //	@file Name: serverVars.sqf
-//	@file Author: [404] Deadbeat, [404] Costlyy, [404] Pulse
+//	@file Author: [404] Deadbeat, [404] Costlyy, [404] Pulse, simwah
 //	@file Created: 20/11/2012 05:19
 //	@file Args:
-// --------------------------------------------------------------------------------------------------- \\
-// ----------  !DO NOT CHANGE ANYTHING BELOW THIS POINT UNLESS YOU KNOW WHAT YOU ARE DOING!	---------- \\
-// ----------																				---------- \\
-// ----------			404Games are not responsible for anything that may happen 			---------- \\
-// ----------			 as a result of unauthorised modifications to this file.			---------- \\
-// --------------------------------------------------------------------------------------------------- \\
 #include "setup.sqf"
 if(!X_Server) exitWith {};
 
@@ -43,8 +36,6 @@ pvar_beaconListIndep = [];
 publicVariable "pvar_beaconListIndep";
 clientMissionMarkers = [];
 publicVariable "clientMissionMarkers";
-clientRadarMarkers = [];
-publicVariable "clientRadarMarkers";
 currentDate = [];
 publicVariable "currentDate";
 currentInvites = [];

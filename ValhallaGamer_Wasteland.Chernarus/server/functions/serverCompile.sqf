@@ -1,7 +1,6 @@
 #include "setup.sqf"
-//	@file Version: 1.0
 //	@file Name: serverCompile.sqf
-//	@file Author: [404] Deadbeat
+//	@file Author: [404] Deadbeat, simwah
 //	@file Created: 20/11/2012 05:19
 //	@file Args:
 
@@ -16,7 +15,6 @@ mission_LightArmVeh = compile preprocessFileLineNumbers "server\missions\mainMis
 mission_LightTank = compile preprocessFileLineNumbers "server\missions\mainMissions\mission_LightTank.sqf";
 mission_MBT = compile preprocessFileLineNumbers "server\missions\mainMissions\mission_MBT.sqf";
 mission_Outpost = compile preprocessFileLineNumbers "server\missions\mainMissions\mission_Outpost.sqf";
-mission_RadarTruck = compile preprocessFileLineNumbers "server\missions\mainMissions\mission_RadarTruck.sqf";
 mission_SupplyDrop = compile preprocessFileLineNumbers "server\missions\mainMissions\mission_SupplyDrop.sqf";
 mission_VIP = compile preprocessFileLineNumbers "server\missions\mainMissions\mission_VIP.sqf";
 
