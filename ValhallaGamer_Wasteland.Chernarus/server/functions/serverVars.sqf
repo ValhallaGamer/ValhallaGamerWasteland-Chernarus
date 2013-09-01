@@ -49,76 +49,53 @@ currentStaticHelis = []; // Storage for the heli marker numbers so that we don't
 
 staticHeliWrecks = [
 	"UH1Wreck",
-    "UH1Wreck",
     "Mi8Wreck",
-    "Mi8Wreck",
-    "C130J_wreck_EP1",
-    "UH60_wreck_EP1",
     "UH60_wreck_EP1"];
 
 //Civilian Vehicle List - Random Spawns
-civilianVehicles = ["car_hatchback",
-					"car_sedan",
-					"datsun1_civil_2_covered",
-					"SkodaGreen",
-					"Lada2",
-					"V3S_Civ",
+civilianVehicles = [
+                    "V3S_Civ",
 					"UralCivil",
-					"VWGolf",
-					"MMT_Civ",
-                    "V3S_TK_GUE_EP1",
-					"Ikarus_TK_CIV_EP1",
-					"Lada1_TK_CIV_EP1",
-					"Old_moto_TK_Civ_EP1",
-					"S1203_TK_CIV_EP1",
-					"UAZ_Unarmed_TK_CIV_EP1",
 					"ATV_US_EP1",
-					"BAF_Offroad_W",
 					"S1203_ambulance_EP1",
-                    "tractorOld",
                     "hilux1_civil_2_covered",
-                    "Lada2_TK_CIV_EP1",
-                    "HMMWV_M1035_DES_EP1",
-                    "LadaLM",
-                    "Tractor",
-                    "TT650_TK_EP1",
-					"TT650_Gue",
-					"M1030",               
-                    "Kamaz",
-                    "LadaLM",
-                    "Lada1",
-                    "hilux1_civil_1_open",
-                    "VolhaLimo_TK_CIV_EP1"];
+                    "MMT_USMC",
+                    "hilux1_civil_1_open"];
 
 //Military Vehicle List - Random Spawns
-militaryVehicles = ["UAZ_CDF",
-					"SUV_PMC",
+militaryVehicles = [
+                    "SUV_PMC",
 					"MTVR",
 					"BAF_Offroad_W",
 					"HMMWV",
 					"HMMWV_Ambulance",
-					"S1203_ambulance_EP1",
 					"GAZ_Vodnik_MedEvac"];
 
 //Armed Military Vehicle List - Random Spawns
-armedMilitaryVehicles = ["ArmoredSUV_PMC",
-							"Pickup_PK_GUE",
+armedMilitaryVehicles = [
+                            "ArmoredSUV_PMC",
+						    "Pickup_PK_GUE",
 							"UAZ_MG_TK_EP1",
 							"LandRover_MG_TK_INS_EP1",
 							"HMMWV_M2",
 							"HMMWV_Armored",
 							"HMMWV_MK19",
 							"HMMWV_TOW",
+                            "UAZ_MG_CDF",
+                            "LandRover_SPG9_TK_EP1",
+                            "Offroad_DSHKM_INS",
 							"GAZ_Vodnik"];
 
 //Item Config
-pickupList = ["Satelit",
+pickupList = [
+                "Satelit",
 				"EvMoney",
 				"Suitcase",
 				"Fuel_can"];
 
 //Object List - Random Spawns.
-objectList = ["Land_Barrel_water",
+objectList = [
+                "Land_Barrel_water",
 				"Land_prebehlavka",
 				"Land_leseni2x",
                 "Fort_Crate_wood",
@@ -165,49 +142,49 @@ objectList = ["Land_Barrel_water",
 				"Land_ConcreteBlock"];
                                          
 //Object List - Random Spawns.
-staticWeaponsList = ["M2StaticMG_US_EP1",
-				"DSHKM_TK_INS_EP1",
-                "BAF_L2A1_Tripod_D",
-				"MK19_TriPod",
-				"KORD_high"];
+staticWeaponsList = [
+                        "M2StaticMG_US_EP1",
+				        "DSHKM_TK_INS_EP1",
+                        "BAF_L2A1_Tripod_D",
+				        "MK19_TriPod",
+                        "M2HD_mini_TriPod",
+                        "KORD",
+                        "AGS_RU",
+                        "SPG9_Ins",
+				        "KORD_high"];
 
 //Object List - Random Helis.
-staticHeliList = ["UH1H_TK_GUE_EP1",
-				"Mi17_Civilian",
-                "MV22",
-                "CH_47F_EP1",
-                "MH6J_EP1",
-                "UH60M_MEV_EP1",
-                "AH6X_EP1",
-                "BAF_Merlin_HC3_D",
-                "Ka137_MG_PMC"];
+staticHeliList = [
+                    "UH1H_TK_GUE_EP1",
+                    "CH_47F_EP1",
+                    "MH6J_EP1",
+                    "UH60M_EP1",
+                    "AH6X_EP1"];
 
 //Random Weapon List - Change this to what you want to spawn in cars.
 vehicleWeapons = [
-				"AK_47_M",
-				"AK_47_S",
-				"AK_74",
-				"bizon",
-				"bizon_silenced",
-                "MP5SD",
-				"LeeEnfield",
-				"M1014",
-				"M16A2",
-                "M4A1",
-				"M79_EP1",
-				"MP5A5",
-				"Sa58V_EP1",
-				"Saiga12K",
-				"SCAR_L_CQC",
-                "M9",
-                "M9SD",
-                "revolver_EP1",
-                "Sa61_EP1",
-                "huntingrifle",
-                "Mk13_EP1",
-                "MakarovSD",
-                "AKS_74_U",
-                "UZI_EP1"];
+				    "AK_47_M",
+				    "AK_47_S",
+				    "AK_74",
+				    "LeeEnfield",
+				    "M16A2",
+                    "M4A1",
+				    "M79_EP1",
+				    "Sa58V_EP1",
+				    "SCAR_L_CQC",
+                    "huntingrifle",
+                    "Mk13_EP1",
+                    "M4A1_Aim",
+                    "M4A1_Aim_camo",
+                    "M16A4",
+                    "AKS_74_kobra",
+                    "AK_107_kobra",
+                    "SCAR_L_CQC_Holo",
+                    "SCAR_L_STD_HOLO",
+                    "FN_FAL",
+                    "M14_EP1",
+                    "M4A3_CCO_EP1",
+                    "AKS_74_U"];
                 
 MissionSpawnMarkers = [
             ["Mission_1",false],
