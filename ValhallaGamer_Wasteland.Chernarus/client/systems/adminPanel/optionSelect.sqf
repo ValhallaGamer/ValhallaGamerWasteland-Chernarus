@@ -1,6 +1,5 @@
-//	@file Version: 1.0
 //	@file Name: optionSelect.sqf
-//	@file Author: [404] Deadbeat, [404] Costlyy
+//	@file Author: [404] Deadbeat, [404] Costlyy, simwah
 //	@file Created: 20/11/2012 05:19
 //	@file Args:
 
@@ -129,7 +128,7 @@ if ((_uid in moderators) OR (_uid in administrators) OR (_uid in serverAdministr
 			    };
 	            case 5: //Test Function
 			    {
-					_nerfBoxes = ["basicUS","basicUS2","basicRU","basicRU2","basicGER","basicPMC","basicSpecial","basicSpecial2","basicSpecial3"];
+					_nerfBoxes = ["basicUS","basicUS2","basicRU","basicRU2","basicGER","basicPMC","basicSpecial","basicSpecial2"];
                     _playerLoc = getPos player;
                     
                     {	

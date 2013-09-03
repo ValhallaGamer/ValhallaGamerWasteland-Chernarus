@@ -1,6 +1,5 @@
-//	@file Version: 1.0
 //	@file Name: mission_SmallHeli.sqf
-//	@file Author: [404] Costlyy
+//	@file Author: [404] Costlyy, simwah
 //	@file Created: 14th May 2013
 //	@file Args:
 
@@ -32,7 +31,7 @@ diag_log format["WASTELAND SERVER - Side Mission Resumed: %1",_missionType];
 
 [_missionMarkerName,_randomPos,_missionType] call createClientMarker;
 
-_vehicleClass = ["AH6X_EP1","Ka137_PMC","Ka137_MG_PMC","MH6J_EP1"] call BIS_fnc_selectRandom;
+_vehicleClass = ["MH60S","UH1H_TK_GUE_EP1","Ka60_PMC","AH6J_EP1","Mi17_CDF"] call BIS_fnc_selectRandom;
 
 //Vehicle Class, Posistion, Fuel, Ammo, Damage
 _vehicle = [_vehicleClass,_randomPos,0.25,1,0.50,"NONE"] call createMissionVehicle;

@@ -1,6 +1,5 @@
-//	@file Version: 1.0
 //	@file Name: mission_APC.sqf
-//	@file Author: [404] Deadbeat, [404] Costlyy
+//	@file Author: [404] Deadbeat, [404] Costlyy, simwah
 //	@file Created: 08/12/2012 15:19
 //	@file Args:
 
@@ -32,7 +31,7 @@ diag_log format["WASTELAND SERVER - Main Mission Resumed: %1",_missionType];
 
 [_missionMarkerName,_randomPos,_missionType] call createClientMarker;
 
-_vehicleClass = ["BTR60_TK_EP1","M1126_ICV_MK19_EP1","BRDM2_TK_GUE_EP1","M113_UN_EP1","BTR90","LAV25","M6_EP1"] call BIS_fnc_selectRandom;
+_vehicleClass = ["BTR60_TK_EP1","BMP2_CDF","BTR90","LAV25","M2A3_EP1","BAF_FV510_W","ZSU_CDF"] call BIS_fnc_selectRandom;
 
 //Vehicle Class, Posistion, Fuel, Ammo, Damage, State
 _vehicle = [_vehicleClass,_randomPos,0,1,0.75,"NONE"] call createMissionVehicle;

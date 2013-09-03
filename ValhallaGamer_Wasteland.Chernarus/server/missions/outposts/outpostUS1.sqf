@@ -1,6 +1,5 @@
-//	@file Version: 1.0
 //	@file Name: outpostUS1.sqf
-//	@file Author: [404] Costlyy
+//	@file Author: [404] Costlyy, simwah
 //	@file Created: 30th May 2013
 //	@file Args:
 
@@ -16,7 +15,7 @@ _objs =
 ["Barrels",[-3.99658,-1.19824,0.01],0,1,0,{}],
 ["Land_CncBlock",[-0.466797,-4.30859,0.01],0,1,0,{}],
 ["Land_CncBlock",[-4.20801,1.53418,0.01],292.196,1,0,{}],
-["BAF_BasicWeapons",[-2.8501,-3.5,0.01],91.2137,1,0,"[this,'mission_Mid_BAF'] call fn_refillbox"],
+["BAF_BasicWeapons",[-2.8501,-3.5,0.01],91.2137,1,0,"[this,'mission_box_Special'] call fn_refillbox"],
 ["Land_fort_bagfence_round",[-5.08105,-3.2207, 0.01],237.15,1,0,{}]
 ];
 _objs

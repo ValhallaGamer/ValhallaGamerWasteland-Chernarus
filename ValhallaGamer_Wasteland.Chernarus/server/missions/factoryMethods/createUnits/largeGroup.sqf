@@ -1,6 +1,5 @@
-//	@file Version: 1.0
 //	@file Name: largeGroup.sqf
-//	@file Author: [404] Deadbeat, [404] Costlyy
+//	@file Author: [404] Deadbeat, [404] Costlyy, simwah
 //	@file Created: 08/12/2012 21:58
 //	@file Args:
 
@@ -11,7 +10,7 @@ private ["_group","_pos","_leader","_man2","_man3","_man4","_man5","_man6","_man
 _group = _this select 0;
 _pos = _this select 1;
 
-//Anti Air no weapon
+//Anti Air
 _leader = _group createunit ["Priest", [(_pos select 0) + 30, _pos select 1, 0], [], 0.5, "Form"];
 _leader addMagazine "Strela";
 _leader addWeapon "Strela";
@@ -31,18 +30,14 @@ _man2 addMagazine "75Rnd_545x39_RPK";
 _man2 addMagazine "75Rnd_545x39_RPK";
 _man2 addWeapon "RPK_74";
 
-//Rifle_man
+//PK
 _man3 = _group createunit ["Woodlander4", [_pos select 0, (_pos select 1) + 30, 0], [], 0.5, "Form"];
-_man3 addMagazine "PG7VR";
-_man3 addMagazine "PG7VR";
-_man3 addMagazine "PG7VR";
-_man3 addWeapon "RPG7V";
-_man3 addMagazine "30Rnd_762x39_AK47";
-_man3 addMagazine "30Rnd_762x39_AK47";
-_man3 addMagazine "30Rnd_762x39_AK47";
-_man4 addMagazine "30Rnd_762x39_AK47";
-_man4 addMagazine "30Rnd_762x39_AK47";
-_man3 addWeapon "AK_47_M";
+_man3 addMagazine "100Rnd_762x54_PK";
+_man3 addMagazine "100Rnd_762x54_PK";
+_man3 addMagazine "100Rnd_762x54_PK";
+_man4 addMagazine "100Rnd_762x54_PK";
+_man4 addMagazine "100Rnd_762x54_PK";
+_man3 addWeapon "PK";
 
 //Rifle_man
 _man4 = _group createunit ["Woodlander4", [_pos select 0, (_pos select 1) + 40, 0], [], 0.5, "Form"];

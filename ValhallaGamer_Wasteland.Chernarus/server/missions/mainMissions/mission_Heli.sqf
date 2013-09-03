@@ -1,6 +1,5 @@
-//	@file Version: 1.0
 //	@file Name: mission_Heli.sqf
-//	@file Author: [404] Deadbeat, [404] Costlyy
+//	@file Author: [404] Deadbeat, [404] Costlyy, simwah
 //	@file Created: 08/12/2012 15:19
 //	@file Args:
 
@@ -33,7 +32,7 @@ diag_log format["WASTELAND SERVER - Main Mission Resumed: %1",_missionType];
 
 [_missionMarkerName,_randomPos,_missionType] call createClientMarker;
 
-_vehicleClass = ["MH60S","MV22","UH1Y","Mi17_Civilian","Mi17_medevac_RU","UH60M_EP1","CH_47F_BAF","UH1H_TK_GUE_EP1","Ka60_PMC","BAF_Merlin_HC3_D"] call BIS_fnc_selectRandom;
+_vehicleClass = ["UH1Y","UH60M_EP1","CH_47F_BAF","AW159_Lynx_BAF","Mi171Sh_rockets_CZ_EP1","Mi17_rockets_RU"] call BIS_fnc_selectRandom;
 
 //Vehicle Class, Posistion, Fuel, Ammo, Damage
 _vehicle = [_vehicleClass,_randomPos,0.25,1,0.50,"NONE"] call createMissionVehicle;

@@ -1,6 +1,5 @@
-//	@file Version: 1.0
 //	@file Name: mission_MBT.sqf
-//	@file Author: [404] Deadbeat, [404] Costlyy
+//	@file Author: [404] Deadbeat, [404] Costlyy, simwah
 //	@file Created: 08/12/2012 15:19
 //	@file Args:
 #include "setup.sqf"
@@ -33,7 +32,7 @@ diag_log format["WASTELAND SERVER - Main Mission Resumed: %1",_missionType];
 
 [_missionMarkerName,_randomPos,_missionType] call createClientMarker;
 
-_vehicleClass = ["T90","T72_INS","T72_INS"] call BIS_fnc_selectRandom;
+_vehicleClass = ["T90","T72_CDF","M1Abrams","M1A2_TUSK_MG"] call BIS_fnc_selectRandom;
 
 //Vehicle Class, Posistion, Fuel, Ammo, Damage
 _vehicle = [_vehicleClass,_randomPos,0,1,0.50,"NONE"] call createMissionVehicle;

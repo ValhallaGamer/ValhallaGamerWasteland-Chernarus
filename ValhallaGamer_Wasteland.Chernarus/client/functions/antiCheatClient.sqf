@@ -47,7 +47,7 @@ _moneyKick = true; // Kick players who greatly exceed the money limit? Note: THI
 func_tauntHacker = {                
 	// Black their screen out and taunt them with silly messages! Mwahahahaha!
 	titleText ["", "BLACK IN", 0];
-	titleText ["ERROR: User performed an illegal operation. \n\n If the problem persists, contact your system administrator or stop using hacked items.","black"]; 
+	titleText ["ERROR: You have used/entered a banned vehicle or weapon \n\n If you think this is a mistake please submit a bug report or stop using hacked items.","black"]; 
 	sleep 10; titleFadeOut 10; 
 };
 

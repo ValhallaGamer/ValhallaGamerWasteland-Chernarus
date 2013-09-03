@@ -168,6 +168,54 @@
 			w = 0.078 * safezoneW;
 			h = 0.033 * safezoneH;
 		};
+
+				class NWSpawnButton: w_RscButton
+		{
+			idc = -1;
+			onButtonClick = "[0] execVM 'client\functions\spawnActionNW.sqf'";
+			text = "North West";
+
+			x = 0.306 * safezoneW + safezoneX;
+			y = 0.365 * safezoneH + safezoneY;
+			w = 0.078 * safezoneW;
+			h = 0.033 * safezoneH;
+		};		
+		
+		class NESpawnButton: w_RscButton
+		{
+			idc = -1;
+			onButtonClick = "[0] execVM 'client\functions\spawnActionNE.sqf'";
+			text = "North East";
+
+			x = 0.406 * safezoneW + safezoneX;
+			y = 0.365 * safezoneH + safezoneY;
+			w = 0.078 * safezoneW;
+			h = 0.033 * safezoneH;
+		};		
+		
+		class SWSpawnButton: w_RscButton
+		{
+			idc = -1;
+			onButtonClick = "[0] execVM 'client\functions\spawnActionSW.sqf'";
+			text = "South West";
+
+			x = 0.515 * safezoneW + safezoneX;
+			y = 0.365 * safezoneH + safezoneY;
+			w = 0.078 * safezoneW;
+			h = 0.033 * safezoneH;
+		};		
+		
+		class SESpawnButton: w_RscButton
+		{
+			idc = -1;
+			onButtonClick = "[0] execVM 'client\functions\spawnActionSE.sqf'";
+			text = "South East";
+
+			x = 0.615 * safezoneW + safezoneX;
+			y = 0.365 * safezoneH + safezoneY;
+			w = 0.078 * safezoneW;
+			h = 0.033 * safezoneH;
+		};
 	
 		class LoadTownsButton: w_RscButton
 		{
@@ -176,7 +224,7 @@
 			text = "Towns";
 
 			x = 0.406 * safezoneW + safezoneX;
-			y = 0.384 * safezoneH + safezoneY;
+			y = 0.395 * safezoneH + safezoneY;
 			w = 0.078 * safezoneW;
 			h = 0.033 * safezoneH;
 		};
@@ -188,7 +236,7 @@
 			text = "Beacons";
 
 			x = 0.515 * safezoneW + safezoneX;
-			y = 0.384 * safezoneH + safezoneY;
+			y = 0.395 * safezoneH + safezoneY;
 			w = 0.078 * safezoneW;
 			h = 0.033 * safezoneH;
 		};

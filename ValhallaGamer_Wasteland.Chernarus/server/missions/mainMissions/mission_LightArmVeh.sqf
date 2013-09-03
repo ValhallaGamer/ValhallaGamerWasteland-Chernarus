@@ -1,6 +1,5 @@
-//	@file Version: 1.0
 //	@file Name: mission_LightArmVeh.sqf
-//	@file Author: [404] Deadbeat, [404] Costlyy
+//	@file Author: [404] Deadbeat, [404] Costlyy, simwah
 //	@file Created: 08/12/2012 15:19
 //	@file Args:
 #include "setup.sqf"
@@ -34,7 +33,7 @@ diag_log format["WASTELAND SERVER - Main Mission Resumed: %1",_missionType];
 
 [_missionMarkerName,_randomPos,_missionType] call createClientMarker;
 
-_vehicleClass = ["GAZ_Vodnik_HMG","GAZ_Vodnik","BRDM2_HQ_TK_GUE_EP1","BRDM2_TK_GUE_EP1", "GAZ_Vodnik_HMG", "Ural_ZU23_INS", "M1126_ICV_M2_EP1"] call BIS_fnc_selectRandom;
+_vehicleClass = ["GAZ_Vodnik_HMG","BRDM2_CDF","Ural_ZU23_CDF","M1126_ICV_M2_EP1","AAV","HMMWV_Avenger","BRDM2_ATGM_CDF","M1135_ATGMV_EP1","M1126_ICV_MK19_EP1"] call BIS_fnc_selectRandom;
 
 //Vehicle Class, Posistion, Fuel, Ammo, Damage
 _vehicle = [_vehicleClass,_randomPos,0.1,1,0.75,"NONE"] call createMissionVehicle;

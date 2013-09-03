@@ -11,8 +11,7 @@ private ["_MMarray","_lastMission","_randomIndex","_mission","_missionType","_ne
 diag_log format["WASTELAND SERVER - Started Main Mission State"];
 
 //Main Mission Array
-_MMarray = [[mission_SupplyDrop,"mission_SupplyDrop"],
-			[mission_APC,"mission_APC"],
+_MMarray = [[mission_APC,"mission_APC"],
             [mission_Heli,"mission_Heli"],
             [mission_LightArmVeh,"mission_LightArmVeh"],
             [mission_LightTank,"mission_LightTank"],

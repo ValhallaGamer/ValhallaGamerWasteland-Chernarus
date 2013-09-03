@@ -13,7 +13,7 @@ private ["_result","_missionMarkerName","_missionType","_startTime","_returnData
 _result = 0;
 _missionMarkerName = "AirWreck_Marker";
 _missionType = "Aircraft Wreck";
-_nerfBoxes = ["basicSpecial","basicSpecial2","basicSpecial3"];
+_nerfBoxes = ["basicSpecial","basicSpecial2"];
 #ifdef __A2NET__
 _startTime = floor(netTime);
 #else
@@ -37,7 +37,7 @@ diag_log format["WASTELAND SERVER - Side Mission Resumed: %1",_missionType];
 _vehicle = ["C130J_US_EP1",[(_randomPos select 0) + 50, (_randomPos select 1) + 50,0],0,0,1,"NONE"] call createMissionVehicle;
 
 _box = createVehicle ["USLaunchersBox",[(_randomPos select 0), (_randomPos select 1),0],[], 0, "NONE"];
-[_box,"mission_Side_USLaunchers"] call fn_refillbox;
+[_box,"mission_box_Launchers"] call fn_refillbox;
 
 _box2 = _nerfBoxes select (random (count _nerfBoxes - 1));
 _safePos = [_randomPos, 2, 10, 1, 0, 60 * (pi / 180), 0] call BIS_fnc_findSafePos;
@@ -49,7 +49,7 @@ _hint = parseText format ["<t align='center' color='%4' shadow='2' size='1.75'>S
 [nil,nil,rHINT,_hint] call RE;
 
 CivGrpS = createGroup civilian;
-[CivGrpS,_randomPos] spawn createSmallGroup;
+[CivGrpS,_randomPos] spawn createLargeGroup;
 
 diag_log format["WASTELAND SERVER - Side Mission Waiting to be Finished: %1",_missionType];
 #ifdef __A2NET__

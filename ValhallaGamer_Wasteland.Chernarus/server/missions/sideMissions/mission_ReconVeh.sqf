@@ -1,6 +1,5 @@
-//	@file Version: 1.0
 //	@file Name: mission_ReconVeh.sqf
-//	@file Author: [404] Deadbeat, [404] Costlyy
+//	@file Author: [404] Deadbeat, [404] Costlyy, simwah
 //	@file Created: 08/12/2012 15:19
 //	@file Args:
 #include "setup.sqf"
@@ -33,7 +32,7 @@ diag_log format["WASTELAND SERVER - Side Mission Resumed: %1",_missionType];
 
 [_missionMarkerName,_randomPos,_missionType] call createClientMarker;
 
-_vehicleClass = ["BAF_Jackal2_L2A1_w","ArmoredSUV_PMC","BAF_Jackal2_L2A1_D","HMMWV_M998A2_SOV_DES_EP1","UAZ_SPG9_INS","UAZ_AGS30_RU","LandRover_Special_CZ_EP1","HMMWV_M1151_M2_DES_EP1","M113_UN_EP1"] call BIS_fnc_selectRandom;
+_vehicleClass = ["BAF_Jackal2_L2A1_W","ArmoredSUV_PMC","BAF_Jackal2_GMG_W","HMMWV_M998A2_SOV_DES_EP1","UAZ_SPG9_INS","LandRover_Special_CZ_EP1","HMMWV_M1151_M2_DES_EP1"] call BIS_fnc_selectRandom;
 
 //Vehicle Class, Posistion, Fuel, Ammo, Damage
 _vehicle = [_vehicleClass,_randomPos,0,1,0,"NONE"] call createMissionVehicle;

@@ -15,7 +15,6 @@ mission_LightArmVeh = compile preprocessFileLineNumbers "server\missions\mainMis
 mission_LightTank = compile preprocessFileLineNumbers "server\missions\mainMissions\mission_LightTank.sqf";
 mission_MBT = compile preprocessFileLineNumbers "server\missions\mainMissions\mission_MBT.sqf";
 mission_Outpost = compile preprocessFileLineNumbers "server\missions\mainMissions\mission_Outpost.sqf";
-mission_SupplyDrop = compile preprocessFileLineNumbers "server\missions\mainMissions\mission_SupplyDrop.sqf";
 mission_VIP = compile preprocessFileLineNumbers "server\missions\mainMissions\mission_VIP.sqf";
 
 //Side Mission Compiles
@@ -34,8 +33,6 @@ createSmallGroup = compile preprocessFileLineNumbers "server\missions\factoryMet
 createMidGroup = compile preprocessFileLineNumbers "server\missions\factoryMethods\createUnits\midGroup.sqf";
 createLargeGroup = compile preprocessFileLineNumbers "server\missions\factoryMethods\createUnits\largeGroup.sqf";
 createMissionVehicle = compile preprocessFileLineNumbers "server\missions\factoryMethods\createMissionVehicle.sqf";
-createSupplyDrop = compile preprocessFileLineNumbers "server\missions\factoryMethods\createSupplyDrop.sqf";
-createCargoItem = compile preprocessFileLineNumbers "server\missions\factoryMethods\createCargoItem.sqf";
 defendArea = compile preprocessFileLineNumbers "server\functions\defendArea.sqf";
 
 //Spawning Compiles
