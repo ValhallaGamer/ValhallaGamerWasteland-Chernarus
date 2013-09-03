@@ -1,6 +1,8 @@
 //	@file Name: mainMissionController.sqf
-//	@file Author: [404] Deadbeat, [404] Costlyy, simwah
+//	@file Author: [404] Deadbeat, [404] Costlyy, simwah, AGeNT [TFB]
 //	@file Created: 08/12/2012 15:19
+//	@file Notes: Edited at 00:55 04/09/2013 by AGeNT to include mission_Gunship in MMarray
+
 #include "setup.sqf"
 #include "mainMissions\mainMissionDefines.sqf";
 
@@ -13,6 +15,7 @@ diag_log format["WASTELAND SERVER - Started Main Mission State"];
 //Main Mission Array
 _MMarray = [[mission_APC,"mission_APC"],
             [mission_Heli,"mission_Heli"],
+			[mission_Gunship,"mission_Gunship"],
             [mission_LightArmVeh,"mission_LightArmVeh"],
             [mission_LightTank,"mission_LightTank"],
             [mission_MBT,"mission_MBT"],

@@ -1,8 +1,9 @@
 #include "setup.sqf"
 //	@file Name: serverCompile.sqf
-//	@file Author: [404] Deadbeat, simwah
+//	@file Author: [404] Deadbeat, simwah, AGeNT [TFB]
 //	@file Created: 20/11/2012 05:19
 //	@file Args:
+//  @file Notes: Edited at 01:00 04/09/2013 by AGeNT to add mission_Gunship to Main Mission Compiles, and createGunship to Factory compiles.
 
 if(!X_Server) exitWith {};
 
@@ -11,6 +12,7 @@ diag_log format["WASTELAND SERVER - Initilizing Server Compile"];
 //Main Mission Compiles
 mission_APC = compile preprocessFileLineNumbers "server\missions\mainMissions\mission_APC.sqf";
 mission_Heli = compile preprocessFileLineNumbers "server\missions\mainMissions\mission_Heli.sqf";
+mission_Gunship = compile preprocessFileLineNumbers "server\missions\mainMissions\mission_Gunship.sqf";
 mission_LightArmVeh = compile preprocessFileLineNumbers "server\missions\mainMissions\mission_LightArmVeh.sqf";
 mission_LightTank = compile preprocessFileLineNumbers "server\missions\mainMissions\mission_LightTank.sqf";
 mission_MBT = compile preprocessFileLineNumbers "server\missions\mainMissions\mission_MBT.sqf";
@@ -33,6 +35,7 @@ createSmallGroup = compile preprocessFileLineNumbers "server\missions\factoryMet
 createMidGroup = compile preprocessFileLineNumbers "server\missions\factoryMethods\createUnits\midGroup.sqf";
 createLargeGroup = compile preprocessFileLineNumbers "server\missions\factoryMethods\createUnits\largeGroup.sqf";
 createMissionVehicle = compile preprocessFileLineNumbers "server\missions\factoryMethods\createMissionVehicle.sqf";
+createGunship = compile preprocessFileLineNumbers "server\missions\factoryMethods\createGunship.sqf";
 defendArea = compile preprocessFileLineNumbers "server\functions\defendArea.sqf";
 
 //Spawning Compiles
