@@ -1,6 +1,5 @@
-//	@file Version: 1.0
 //	@file Name: createMissionVehicle.sqf
-//	@file Author: [404] Deadbeat, [404] Costlyy
+//	@file Author: [404] Deadbeat, [404] Costlyy, simwah
 //	@file Created: 26/1/2013 15:19
 
 if(!isServer) exitwith {};
@@ -18,6 +17,7 @@ _veh = createVehicle [_vehicleClass,_randomPos,[], 0, _state];
 _veh setFuel _fuel;
 _veh setVehicleAmmo _ammo;
 _veh setdamage _damage;
+_veh disableTIEquipment true;
 
 _veh setVehicleLock "LOCKED";
 _veh setVariable["newVehicle",1,true];
