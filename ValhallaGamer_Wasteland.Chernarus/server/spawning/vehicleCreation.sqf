@@ -64,7 +64,7 @@ if (_type == 2) then {
     _cartype = armedMilitaryVehicles select (random (count armedMilitaryVehicles - 1));
     _car = createVehicle [_cartype,_pos, [], 30, "None"];
     _car setpos [getpos _car select 0,getpos _car select 1,0];
-    _car setVehicleInit "nul=[this, 300, 3600, 0, false, 'this disableTIEquipment true;'] execVM 'server\functions\vehicle.sqf'";
+    _car setVehicleInit "nul=[this, 300, 3600, 0, false, false, 'this disableTIEquipment true;'] execVM 'server\functions\vehicle.sqf'";
 	processInitCommands;
 
 	//Clear Cars Inventory
