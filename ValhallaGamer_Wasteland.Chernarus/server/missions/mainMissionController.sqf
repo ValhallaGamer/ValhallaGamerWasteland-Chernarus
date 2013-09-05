@@ -8,7 +8,7 @@
 
 if(!isServer) exitWith {};
 
-private ["_MMarray","_lastMission","_randomIndex","_mission","_missionType","_newMissionArray","_lastMission"];
+private ["_MMarray","_lastMission","_randomIndex","_mission","_missionType","_mmCycleArray","_lastMission"];
 
 diag_log format["WASTELAND SERVER - Started Main Mission State"];
 
@@ -23,29 +23,33 @@ _MMarray = [[mission_APC,"mission_APC"],
             [mission_VIP,"mission_VIP"]];
             
 _lastMission = "nomission";
+_mmCycleArray = + _MMarray;
 while {true} do
 {
-    //Select Mission
-    _randomIndex = (random (count _MMarray - 1));
-	_mission = _MMarray select _randomIndex select 0;
-    _missionType = _MMarray select _randomIndex select 1;
+    //Refill cycle array if empty
+    if((count _mmCycleArray) < 1) then { _mmCycleArray = + _MMarray; };
 
-	//Select new mission if the same
-    if(str(_missionType) == _lastMission) then
-    {
-        _newMissionArray = _MMarray;
-        _newMissionArray set [_randomIndex, "REMOVETHISCRAP"];
-        _newMissionArray = _newMissionArray - ["REMOVETHISCRAP"];
-        _randomIndex = (random (count _newMissionArray - 1));
-        _missionType = _newMissionArray select _randomIndex select 1;
-        _mission = _newMissionArray select _randomIndex select 0;    
+    //Select Mission using random index
+    _randomIndex = (floor(random (count _mmCycleArray)));
+    diag_log format["DEBUG - Main Mission random index = %1 / %2",_randomIndex, count _mmCycleArray];
+    _mission = _mmCycleArray select _randomIndex select 0;
+    _missionType = _mmCycleArray select _randomIndex select 1;
+    //Select new mission if the same as previous
+    if((str(_missionType) == _lastMission) && ((count _mmCycleArray) > 1) ) then {
+        if(_randomIndex < 1) then { _randomIndex = _randomIndex + 1; } else { _randomIndex = _randomIndex - 1; };
+        _mission = _mmCycleArray select _randomIndex select 0;
+        _missionType = _mmCycleArray select _randomIndex select 1;
     };
-    
-	_missionRunning = [] spawn _mission;
+    //Remove mission from cycle array
+    _mmCycleArray set [_randomIndex, "REMOVETHISCRAP"];
+    _mmCycleArray = _mmCycleArray - ["REMOVETHISCRAP"];
+
+    //Spawn mission
+    _missionRunning = [] spawn _mission;
     diag_log format["WASTELAND SERVER - Execute New Main Mission: %1",_missionType];
     _hint = parseText format ["<t align='center' color='%2' shadow='2' size='1.75'>Main Objective</t><br/><t align='center' color='%2'>------------------------------</t><br/><t color='%3' size='1.0'>Starting in %1 Minutes</t>", mainMissionDelayTime / 60, mainMissionColor, subTextColor];
-	[nil,nil,rHINT,_hint] call RE;
+    [nil,nil,rHINT,_hint] call RE;
     _lastMission = _missionType;
-	waitUntil{sleep 0.1; scriptDone _missionRunning};
-    sleep 5; 
+    waitUntil{sleep 0.1; scriptDone _missionRunning};
+    sleep 5;
 };

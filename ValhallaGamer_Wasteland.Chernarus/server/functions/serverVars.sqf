@@ -154,6 +154,7 @@ objectList = [
                 "Land_CncBlock_Stripes",
                 "Land_GuardShed",
                 "Land_tent_east",
+                "MASH_EP1",
 				"Land_ConcreteBlock"];
                                          
 //Object List - Random Spawns.

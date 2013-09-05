@@ -26,6 +26,7 @@ switch(_selectedBox) do {
 		_currBox addWeaponCargoGlobal ["M47Launcher_EP1",1];
 		_currBox addWeaponCargoGlobal ["MAAWS",1];
 		_currBox addWeaponCargoGlobal ["MetisLauncher",1];
+        _currBox addWeaponCargoGlobal ["BAF_NLAW_Launcher",1];
 		// Add ammunition
 		_currBox addMagazineCargoGlobal ["SMAW_HEDP",3];
         _currBox addMagazineCargoGlobal ["SMAW_HEAA",3];
@@ -38,7 +39,8 @@ switch(_selectedBox) do {
 		_currBox addMagazineCargoGlobal ["Dragon_EP1",2];
         _currBox addMagazineCargoGlobal ["AT13",2];
         _currBox addMagazineCargoGlobal ["6Rnd_HE_M203",6];
-        _currBox addMagazineCargoGlobal ["Pipebomb",6];                         
+        _currBox addMagazineCargoGlobal ["Pipebomb",6];
+        _currBox addMagazineCargoGlobal ["NLAW",2];                         
 
     };
     case "mission_box_Special": { // Used in WepChache Mission and outpost missions

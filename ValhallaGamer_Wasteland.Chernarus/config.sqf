@@ -102,6 +102,7 @@ weaponsArray = [
 [5, "RPG-7","RPG7V",300,120],
 [5, "SMAW","SMAW",350,140],
 [5, "Stinger","Stinger",800,320],
+[5, "NLAW","BAF_NLAW_Launcher",600,240],
 [5, "Strela","Strela",800,320]
 ];
 
@@ -153,6 +154,7 @@ ammoArray = [
 ["Javelin Missile","Javelin",300],
 ["Metis Missile","AT13",300],
 ["M47 Missile","Dragon_EP1",300],
+["NLAW Missile","NLAW",300],
 ["Igla Missile","Igla",300],
 ["Stinger Missile","Stinger",300],
 ["Strela Missle","Strela",300]
