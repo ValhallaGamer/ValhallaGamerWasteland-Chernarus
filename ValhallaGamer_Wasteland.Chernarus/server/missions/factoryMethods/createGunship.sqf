@@ -1,7 +1,7 @@
 //	@file Name: createGunship.sqf
 //	@file Author: [404] Deadbeat, [404] Costlyy, AGeNT [TFB]
 //	@file Created: 04/9/2013 00:51
-//  @file Notes: Original createMissionVehicle.sqf by [404] Deadbeat, [404] Costlyy, adapted to spawn gunships & modify their loadouts without having to make createMissionVehicle.sqf too complicated.
+//	@file Notes: Original createMissionVehicle.sqf by [404] Deadbeat, [404] Costlyy, adapted to spawn gunships & modify their loadouts without having to make createMissionVehicle.sqf too complicated.
 
 if(!isServer) exitwith {};
 
@@ -35,3 +35,5 @@ _veh setVariable ["R3F_LOG_disabled", true, true];
 
 clearMagazineCargoGlobal _veh;
 clearWeaponCargoGlobal _veh;
+
+_veh

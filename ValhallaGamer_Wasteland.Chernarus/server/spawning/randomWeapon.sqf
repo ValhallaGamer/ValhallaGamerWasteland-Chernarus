@@ -1,8 +1,9 @@
 //	@file Version: 1.0
 //	@file Name: randomWeapon.sqf
-//	@file Author: [404] Deadbeat, [404] Costlyy
+//	@file Author: [404] Deadbeat, [404] Costlyy, AGeNT [TFB]
 //	@file Created: 20/11/2012 05:19
 //	@file Args: Element 0 = Vehicle.
+//	@file Notes: Modified by AGeNT [TFB] to include random chance of rangefinders. 05/09/2013 03:45
 
 if(!X_Server) exitWith {};
 
@@ -12,8 +13,9 @@ private ["_car","_mags","_rnd","_weapon","_mag"];
 _car = _this select 0;
 
 _num = floor (random 100);
-if (_num < 75) then { _car addWeaponCargoGlobal ["Binocular", 1]};
-if (_num < 15) then { _car addWeaponCargoGlobal ["NVgoggles", 1]};
+if (_num < 75) then {_car addWeaponCargoGlobal ["Binocular", 1]};
+if (_num < 20) then {_car addWeaponCargoGlobal ["NVgoggles", 1]};
+if (_num < 20) then {_car addWeaponCargoGlobal ["Binocular_Vector", 1]};
 
 //Get Random Gun From randomWeapons Array.
 _weapon = vehicleWeapons select (random (count vehicleWeapons - 1));

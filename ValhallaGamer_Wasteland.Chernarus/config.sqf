@@ -4,7 +4,7 @@
 //	@file Created: 20/11/2012 05:13
 //	@file Description: Main config.
                                                                                                 
-//Gunstore Weapon List - Gun Store Base List
+// Gunstore Weapon List - Gun Store Base List
 // Type, Text name, classname, buy cost, sell amount
 weaponsArray = [
 	// Pistols
@@ -38,7 +38,9 @@ weaponsArray = [
 [2, "Enfield","LeeEnfield",100,40],
 [2, "M14 Aim","M14_EP1",300,120],
 [2, "M16A2","M16A2",80,32],
+[2, "M16A2GL","M16A2",100,60],
 [2, "M16A4","M16A4",150,60],
+[2, "M16A4 M203","M16A4_GL",150,60],
 [2, "M16A4 ACOG","M16A4_ACG",250,100],
 [2, "M4A1","M4A1",80,32],
 [2, "M4A1 Aim","M4A1_Aim",100,40],
@@ -71,8 +73,8 @@ weaponsArray = [
 [3, "M110 NV Scope","M110_NVG_EP1",1500,600],
 [3, "M24","M24",750,300],
 [3, "M40A3","M40A3",750,300],
-[3, "M4 SPR","M4SPR",300,120],
-[3, "Mk. 17 Sniper","SCAR_H_LNG_Sniper",1000,400],
+[3, "Mk. 12 SPR","M4SPR",300,120],
+[3, "Mk. 17 Sniper","SCAR_H_LNG_Sniper",1200,400],
 [3, "Mk. 17 Sniper SD","SCAR_H_LNG_Sniper_SD",800,320],
 [3, "SVD","SVD",1000,400],
     
@@ -128,12 +130,12 @@ ammoArray = [
 ["75Rnd. RPK","75Rnd_545x39_RPK",30],
 ["20Rnd. AA12 Pellets","20Rnd_B_AA12_Pellets",20],
 ["20Rnd. AA12 Pellets","20Rnd_B_AA12_74Slug",20],
-["20Rnd. AA12 HE","20Rnd_B_AA12_HE",40],
+["20Rnd. AA12 HE","20Rnd_B_AA12_HE",50],
 ["5Rnd. M24","5Rnd_762x51_M24",40],
 ["5Rnd. Lapua","5Rnd_86x70_L115A1",40],
 ["20Rnd. DMR","20Rnd_762x51_DMR",40],
-["20Rnd Mk. 17 SD","20Rnd_762x51_SB_SCAR",40],
-["20Rnd Mk. 17","20Rnd_762x51_B_SCAR",40],
+["20Rnd Mk. 17 SD","20Rnd_762x51_SB_SCAR",50],
+["20Rnd Mk. 17","20Rnd_762x51_B_SCAR",50],
 ["10Rnd. SVD","10Rnd_762x54_SVD",40],
 ["Grenade","HandGrenade",10],
 ["BAF Grenade","BAF_L109A1_HE",10],
@@ -141,8 +143,8 @@ ammoArray = [
 ["1 M203 Smoke","1Rnd_Smoke_M203",20],
 ["GP25 HE","1Rnd_HE_GP25",20],
 ["GP25 Smoke","1Rnd_SMOKE_GP25",20],
-["Satchel Charge","Pipebomb",50],
-["M32 6Rnd. HE","6Rnd_HE_M203",50],
+["Satchel Charge","Pipebomb",100],
+["M32 6Rnd. HE","6Rnd_HE_M203",100],
 ["M136 Rocket","M136",100],
 ["SMAW HE Rocket","SMAW_HEDP",100],
 ["SMAW AT Rocket","SMAW_HEAA",100],
@@ -163,7 +165,7 @@ accessoriesArray = [
     //["1 Land Mine","Mine", 75],
 	["GPS","ItemGPS", 100],
 	["NV Goggles","NVGoggles",100],
-	["Range Finder","Binocular_Vector",350]
+	["Range Finder","Binocular_Vector",300]
 ];
 
 //General Store Item List

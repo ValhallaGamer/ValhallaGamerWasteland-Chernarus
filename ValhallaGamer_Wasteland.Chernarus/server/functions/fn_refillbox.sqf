@@ -63,8 +63,8 @@ switch(_selectedBox) do {
         _currBox addMagazineCargoGlobal ["20Rnd_762x51_SB_SCAR",50];
         _currBox addMagazineCargoGlobal ["20Rnd_762x51_B_SCAR",100];
         _currBox addMagazineCargoGlobal ["30Rnd_556x45_Stanag",100];
-        _currBox addMagazineCargoGlobal ["1Rnd_HE_M203",20];
-        _currBox addMagazineCargoGlobal ["1Rnd_Smoke_M203",20];
+        _currBox addMagazineCargoGlobal ["1Rnd_HE_M203",30];
+        _currBox addMagazineCargoGlobal ["1Rnd_Smoke_M203",30];
         _currBox addMagazineCargoGlobal ["100Rnd_556x45_BetaCMag",50];    	
     };
 };
