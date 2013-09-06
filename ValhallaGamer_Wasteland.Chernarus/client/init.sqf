@@ -1,7 +1,8 @@
 //@file Name: init.sqf
-//@file Author: [404] Deadbeat, [404] Costlyy, simwah
+//@file Author: [404] Deadbeat, [404] Costlyy, simwah, AGeNT [TFB]
 //@file Created: 20/11/2012 05:19
 //@file Description: The client init.
+//@files Notes: 13:00 06/09/2013 Added Xeno's 'virtual' backpack init
 
 if(!X_Client) exitWith {};
 
@@ -71,3 +72,6 @@ sleep 1;
 true spawn playerSpawn;
 [] execVM "client\functions\antiCheatClient.sqf";
 [] spawn FZF_IC_INIT;
+
+//extra scripts
+[] execVM "addons\Backpacks\init.sqf";
