@@ -1,7 +1,9 @@
 //	@file Name: serverVars.sqf
-//	@file Author: [404] Deadbeat, [404] Costlyy, [404] Pulse, simwah
+//	@file Author: [404] Deadbeat, [404] Costlyy, [404] Pulse, simwah, AGeNT [TFB]
 //	@file Created: 20/11/2012 05:19
 //	@file Args:
+//	@file Notes: Edited by AGeNT [TFB] 07/09/2013 09:18, include variables to enable littlebird spawning, added repair kit object to spawned items.
+
 #include "setup.sqf"
 if(!X_Server) exitWith {};
 
@@ -46,6 +48,7 @@ publicVariable "currentInvites";
 "PlayerCDeath" addPublicVariableEventHandler {_id = (_this select 1) spawn server_playerDied};
 
 currentStaticHelis = []; // Storage for the heli marker numbers so that we don't spawn wrecks on top of live helis
+currentLittleBirds = []; // Storage for spawned Littlebirds cos whynot.jpg
 
 staticHeliWrecks = [
 	"UH1Wreck",
@@ -155,7 +158,8 @@ objectList = [
                 "Land_GuardShed",
                 "Land_tent_east",
                 "MASH_EP1",
-				"Land_ConcreteBlock"];
+				"Land_ConcreteBlock",
+				"Suitcase"];
                                          
 //Object List - Random Spawns.
 staticWeaponsList = [
@@ -175,6 +179,16 @@ staticHeliList = [
                     "CH_47F_EP1",
                     "MH60S",
                     "UH60M_EP1"
+					
+                ];
+				
+staticLittlebirdList = [
+                    "MH6J_EP1",
+                    "MH6J_EP1",
+                    "AH6J_EP1",
+                    "MH6J_EP1",
+					"MH6J_EP1",
+					"MH6J_EP1"
 					
                 ];
 

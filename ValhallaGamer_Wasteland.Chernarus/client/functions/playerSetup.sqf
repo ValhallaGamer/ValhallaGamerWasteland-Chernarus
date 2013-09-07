@@ -21,6 +21,8 @@ _player addMagazine "30Rnd_9x19_MP5";
 _player addMagazine "30Rnd_9x19_MP5";
 _player addWeapon "MP5A5";
 _player selectWeapon "MP5A5";
+_player addWeapon "itemGPS";
+
 
 if(str(playerSide) in ["WEST"]) then
 {
@@ -30,6 +32,7 @@ if(str(playerSide) in ["WEST"]) then
     _player addMagazine "30Rnd_9x19_MP5";
 	_player addWeapon "MP5A5";
 	_player selectWeapon "MP5A5";
+	_player addWeapon "itemGPS";
 };
 
 if(str(playerSide) in ["EAST"]) then
@@ -40,6 +43,7 @@ if(str(playerSide) in ["EAST"]) then
     _player addMagazine "30Rnd_9x19_MP5";
 	_player addWeapon "MP5A5";
 	_player selectWeapon "MP5A5";
+	_player addWeapon "itemGPS";
 };
 
 if(str(playerSide) in ["GUER"]) then
@@ -50,6 +54,7 @@ if(str(playerSide) in ["GUER"]) then
     _player addMagazine "30Rnd_9x19_MP5";
 	_player addWeapon "MP5A5";
 	_player selectWeapon "MP5A5";
+	_player addWeapon "itemGPS";
 };
 
 _player addrating 1000000;

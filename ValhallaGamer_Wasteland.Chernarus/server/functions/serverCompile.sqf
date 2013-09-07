@@ -4,6 +4,7 @@
 //	@file Created: 20/11/2012 05:19
 //	@file Args:
 //  @file Notes: Edited at 01:00 04/09/2013 by AGeNT to add mission_Gunship to Main Mission Compiles, and createGunship to Factory compiles.
+// Edited at 09:52 07/09/2013 by AGeNT to add littlebirdSpawning compile.
 
 if(!X_Server) exitWith {};
 
@@ -44,6 +45,7 @@ vehicleCreation = compile preprocessFileLineNumbers "server\spawning\vehicleCrea
 objectCreation = compile preprocessFileLineNumbers "server\spawning\objectCreation.sqf";
 staticGunCreation = compile preprocessFileLineNumbers "server\spawning\staticGunCreation.sqf";
 staticHeliCreation = compile preprocessFileLineNumbers "server\spawning\staticHeliCreation.sqf";
+staticLittlebirdCreation = compile preprocessFileLineNumbers "server\spawning\staticLittlebirdCreation.sqf";
 fn_refillbox = compile preprocessFileLineNumbers "server\functions\fn_refillbox.sqf";
 
 //Player Management

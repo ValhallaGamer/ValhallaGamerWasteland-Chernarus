@@ -4,6 +4,8 @@
 //	@file Created: 20/11/2012 05:19
 //	@file Description: The server init.
 //	@file Args:
+//	@file Notes: Edited by AGeNT [TFB] 07/09/2013 09:23 to include execVM of littleBird spawning.
+	
 
 #include "setup.sqf"
 if(!X_Server) exitWith {};
@@ -35,6 +37,8 @@ if (serverSpawning == 1) then {
     _gunSpawn = [] ExecVM "server\functions\staticGunSpawning.sqf";
 	waitUntil{sleep 0.1; scriptDone _gunSpawn};
     _heliSpawn = [] ExecVM "server\functions\staticHeliSpawning.sqf";
+    waitUntil{sleep 0.1; scriptDone _heliSpawn};
+	_littebirdSpawn = [] ExecVM "server\functions\staticLittlebirdSpawning.sqf";
     waitUntil{sleep 0.1; scriptDone _heliSpawn};
     _markerClean = [] ExecVM "server\functions\cleanMarkers.sqf";
     waitUntil{sleep 0.1; scriptDone _markerClean};

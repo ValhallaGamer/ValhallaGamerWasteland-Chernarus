@@ -17,15 +17,16 @@ class Mission
 		"caair_baf_ch_47f",
 		"CAAir_E_AH6J",
 		"CAWater",
-		"cawater2_fishing_boat"
+		"cawater2_fishing_boat",
+		"CACharacters_W_BAF"
 	};
 	addOnsAuto[]=
 	{
-		"CACharacters_BAF",
 		"cacharacters2",
-		"cacharacters_pmc",
 		"cacharacters_e",
 		"ca_modules_functions",
+		"cacharacters_baf",
+		"CACharacters_W_BAF",
 		"camisc3",
 		"caweapons_ammoboxes",
 		"cabuildings",
@@ -62,11 +63,11 @@ class Mission
 					id=3;
 					side="WEST";
 					vehicle="USMC_Soldier";
-					description="Solider";
 					player="PLAY CDG";
 					leader=1;
 					skill=0.60000002;
 					text="blufor4";
+					description="Solider";
 				};
 			};
 		};
@@ -82,11 +83,11 @@ class Mission
 					id=2;
 					side="WEST";
 					vehicle="USMC_Soldier";
-					description="Solider";
 					player="PLAY CDG";
 					leader=1;
 					skill=0.60000002;
 					text="blufor3";
+					description="Solider";
 				};
 			};
 		};
@@ -102,11 +103,11 @@ class Mission
 					id=7;
 					side="WEST";
 					vehicle="USMC_Soldier";
-					description="Solider";
 					player="PLAY CDG";
 					leader=1;
 					skill=0.60000002;
 					text="blufor8";
+					description="Solider";
 				};
 			};
 		};
@@ -122,11 +123,11 @@ class Mission
 					id=10;
 					side="WEST";
 					vehicle="USMC_Soldier";
-					description="Solider";
 					player="PLAY CDG";
 					leader=1;
 					skill=0.60000002;
 					text="blufor11";
+					description="Solider";
 				};
 			};
 		};
@@ -142,11 +143,11 @@ class Mission
 					id=11;
 					side="WEST";
 					vehicle="USMC_Soldier";
-					description="Solider";
 					player="PLAY CDG";
 					leader=1;
 					skill=0.60000002;
 					text="blufor12";
+					description="Solider";
 				};
 			};
 		};
@@ -162,11 +163,11 @@ class Mission
 					id=12;
 					side="WEST";
 					vehicle="USMC_Soldier";
-					description="Solider";
 					player="PLAY CDG";
 					leader=1;
 					skill=0.60000002;
 					text="blufor13";
+					description="Solider";
 				};
 			};
 		};
@@ -182,11 +183,11 @@ class Mission
 					id=13;
 					side="WEST";
 					vehicle="USMC_Soldier";
-					description="Solider";
 					player="PLAY CDG";
 					leader=1;
 					skill=0.60000002;
 					text="blufor14";
+					description="Solider";
 				};
 			};
 		};
@@ -202,11 +203,11 @@ class Mission
 					id=14;
 					side="WEST";
 					vehicle="USMC_Soldier";
-					description="Solider";
 					player="PLAY CDG";
 					leader=1;
 					skill=0.60000002;
 					text="blufor15";
+					description="Solider";
 				};
 			};
 		};
@@ -222,11 +223,11 @@ class Mission
 					id=15;
 					side="WEST";
 					vehicle="USMC_Soldier";
-					description="Solider";
 					player="PLAY CDG";
 					leader=1;
 					skill=0.60000002;
 					text="blufor16";
+					description="Solider";
 				};
 			};
 		};
@@ -242,11 +243,11 @@ class Mission
 					id=16;
 					side="WEST";
 					vehicle="USMC_Soldier";
-					description="Solider";
 					player="PLAY CDG";
 					leader=1;
 					skill=0.60000002;
 					text="blufor17";
+					description="Solider";
 				};
 			};
 		};
@@ -262,11 +263,11 @@ class Mission
 					id=17;
 					side="WEST";
 					vehicle="FR_Corpsman";
-					description="Medic";
 					player="PLAY CDG";
 					leader=1;
 					skill=0.60000002;
 					text="blufor18";
+					description="Medic";
 				};
 			};
 		};
@@ -282,11 +283,11 @@ class Mission
 					id=18;
 					side="WEST";
 					vehicle="FR_Corpsman";
-					description="Medic";
 					player="PLAY CDG";
 					leader=1;
 					skill=0.60000002;
 					text="blufor19";
+					description="Medic";
 				};
 			};
 		};
@@ -302,11 +303,11 @@ class Mission
 					id=19;
 					side="WEST";
 					vehicle="FR_Corpsman";
-					description="Medic";
 					player="PLAY CDG";
 					leader=1;
 					skill=0.60000002;
 					text="blufor20";
+					description="Medic";
 				};
 			};
 		};
@@ -322,11 +323,11 @@ class Mission
 					id=20;
 					side="EAST";
 					vehicle="RU_Soldier";
-					description="Soldier";
 					player="PLAY CDG";
 					leader=1;
 					skill=0.60000002;
 					text="opfor1";
+					description="Soldier";
 				};
 			};
 		};
@@ -342,11 +343,11 @@ class Mission
 					id=21;
 					side="EAST";
 					vehicle="RU_Soldier";
-					description="Soldier";
 					player="PLAY CDG";
 					leader=1;
 					skill=0.60000002;
 					text="opfor2";
+					description="Soldier";
 				};
 			};
 		};
@@ -362,11 +363,11 @@ class Mission
 					id=22;
 					side="EAST";
 					vehicle="RU_Soldier";
-					description="Soldier";
 					player="PLAY CDG";
 					leader=1;
 					skill=0.60000002;
 					text="opfor3";
+					description="Soldier";
 				};
 			};
 		};
@@ -382,11 +383,11 @@ class Mission
 					id=23;
 					side="EAST";
 					vehicle="RU_Soldier";
-					description="Soldier";
 					player="PLAY CDG";
 					leader=1;
 					skill=0.60000002;
 					text="opfor4";
+					description="Soldier";
 				};
 			};
 		};
@@ -402,11 +403,11 @@ class Mission
 					id=24;
 					side="EAST";
 					vehicle="RU_Soldier";
-					description="Soldier";
 					player="PLAY CDG";
 					leader=1;
 					skill=0.60000002;
 					text="opfor5";
+					description="Soldier";
 				};
 			};
 		};
@@ -422,11 +423,11 @@ class Mission
 					id=25;
 					side="EAST";
 					vehicle="RU_Soldier";
-					description="Soldier";
 					player="PLAY CDG";
 					leader=1;
 					skill=0.60000002;
 					text="opfor6";
+					description="Soldier";
 				};
 			};
 		};
@@ -442,11 +443,11 @@ class Mission
 					id=26;
 					side="EAST";
 					vehicle="RU_Soldier";
-					description="Soldier";
 					player="PLAY CDG";
 					leader=1;
 					skill=0.60000002;
 					text="opfor7";
+					description="Soldier";
 				};
 			};
 		};
@@ -462,11 +463,11 @@ class Mission
 					id=27;
 					side="EAST";
 					vehicle="RU_Soldier";
-					description="Soldier";
 					player="PLAY CDG";
 					leader=1;
 					skill=0.60000002;
 					text="opfor8";
+					description="Soldier";
 				};
 			};
 		};
@@ -482,11 +483,11 @@ class Mission
 					id=28;
 					side="EAST";
 					vehicle="RU_Soldier";
-					description="Soldier";
 					player="PLAY CDG";
 					leader=1;
 					skill=0.60000002;
 					text="opfor12";
+					description="Soldier";
 				};
 			};
 		};
@@ -502,11 +503,11 @@ class Mission
 					id=29;
 					side="EAST";
 					vehicle="RU_Soldier";
-					description="Soldier";
 					player="PLAY CDG";
 					leader=1;
 					skill=0.60000002;
 					text="opfor11";
+					description="Soldier";
 				};
 			};
 		};
@@ -522,11 +523,11 @@ class Mission
 					id=30;
 					side="EAST";
 					vehicle="Ins_Soldier_Medic";
-					description="Medic";
 					player="PLAY CDG";
 					leader=1;
 					skill=0.60000002;
 					text="opfor10";
+					description="Medic";
 				};
 			};
 		};
@@ -542,11 +543,11 @@ class Mission
 					id=31;
 					side="EAST";
 					vehicle="Ins_Soldier_Medic";
-					description="Medic";
 					player="PLAY CDG";
 					leader=1;
 					skill=0.60000002;
 					text="opfor9";
+					description="Medic";
 				};
 			};
 		};
@@ -562,11 +563,11 @@ class Mission
 					id=32;
 					side="EAST";
 					vehicle="Ins_Soldier_Medic";
-					description="Medic";
 					player="PLAY CDG";
 					leader=1;
 					skill=0.60000002;
 					text="opfor13";
+					description="Medic";
 				};
 			};
 		};
@@ -582,11 +583,11 @@ class Mission
 					id=33;
 					side="EAST";
 					vehicle="Ins_Soldier_Medic";
-					description="Medic";
 					player="PLAY CDG";
 					leader=1;
 					skill=0.60000002;
 					text="opfor14";
+					description="Medic";
 				};
 			};
 		};
@@ -602,11 +603,11 @@ class Mission
 					id=34;
 					side="EAST";
 					vehicle="Ins_Soldier_Medic";
-					description="Medic";
 					player="PLAY CDG";
 					leader=1;
 					skill=0.60000002;
 					text="opfor15";
+					description="Medic";
 				};
 			};
 		};
@@ -622,11 +623,11 @@ class Mission
 					id=35;
 					side="EAST";
 					vehicle="TK_Soldier_Engineer_EP1";
-					description="Engineer";
 					player="PLAY CDG";
 					leader=1;
 					skill=0.60000002;
 					text="opfor16";
+					description="Engineer";
 				};
 			};
 		};
@@ -642,11 +643,11 @@ class Mission
 					id=36;
 					side="EAST";
 					vehicle="TK_Soldier_Engineer_EP1";
-					description="Engineer";
 					player="PLAY CDG";
 					leader=1;
 					skill=0.60000002;
 					text="opfor17";
+					description="Engineer";
 				};
 			};
 		};
@@ -662,11 +663,11 @@ class Mission
 					id=37;
 					side="EAST";
 					vehicle="TK_Soldier_Engineer_EP1";
-					description="Engineer";
 					player="PLAY CDG";
 					leader=1;
 					skill=0.60000002;
 					text="opfor18";
+					description="Engineer";
 				};
 			};
 		};
@@ -682,11 +683,11 @@ class Mission
 					id=38;
 					side="EAST";
 					vehicle="TK_Soldier_Engineer_EP1";
-					description="Engineer";
 					player="PLAY CDG";
 					leader=1;
 					skill=0.60000002;
 					text="opfor19";
+					description="Engineer";
 				};
 			};
 		};
@@ -702,11 +703,11 @@ class Mission
 					id=39;
 					side="EAST";
 					vehicle="TK_Soldier_Engineer_EP1";
-					description="Engineer";
 					player="PLAY CDG";
 					leader=1;
 					skill=0.60000002;
 					text="opfor20";
+					description="Engineer";
 				};
 			};
 		};
@@ -722,11 +723,11 @@ class Mission
 					id=40;
 					side="GUER";
 					vehicle="GUE_Soldier_AR";
-					description="Soldier";
 					player="PLAY CDG";
 					leader=1;
 					skill=0.60000002;
 					text="guer1";
+					description="Soldier";
 				};
 			};
 		};
@@ -742,11 +743,11 @@ class Mission
 					id=41;
 					side="GUER";
 					vehicle="GUE_Soldier_AR";
-					description="Soldier";
 					player="PLAY CDG";
 					leader=1;
 					skill=0.60000002;
 					text="guer2";
+					description="Soldier";
 				};
 			};
 		};
@@ -762,11 +763,11 @@ class Mission
 					id=42;
 					side="GUER";
 					vehicle="GUE_Soldier_AR";
-					description="Soldier";
 					player="PLAY CDG";
 					leader=1;
 					skill=0.60000002;
 					text="guer3";
+					description="Soldier";
 				};
 			};
 		};
@@ -782,11 +783,11 @@ class Mission
 					id=43;
 					side="GUER";
 					vehicle="GUE_Soldier_AR";
-					description="Soldier";
 					player="PLAY CDG";
 					leader=1;
 					skill=0.60000002;
 					text="guer4";
+					description="Soldier";
 				};
 			};
 		};
@@ -802,11 +803,11 @@ class Mission
 					id=44;
 					side="GUER";
 					vehicle="GUE_Soldier_AR";
-					description="Soldier";
 					player="PLAY CDG";
 					leader=1;
 					skill=0.60000002;
 					text="guer5";
+					description="Soldier";
 				};
 			};
 		};
@@ -822,11 +823,11 @@ class Mission
 					id=45;
 					side="GUER";
 					vehicle="GUE_Soldier_AR";
-					description="Soldier";
 					player="PLAY CDG";
 					leader=1;
 					skill=0.60000002;
 					text="guer6";
+					description="Soldier";
 				};
 			};
 		};
@@ -842,11 +843,11 @@ class Mission
 					id=46;
 					side="GUER";
 					vehicle="GUE_Soldier_AR";
-					description="Soldier";
 					player="PLAY CDG";
 					leader=1;
 					skill=0.60000002;
 					text="guer7";
+					description="Soldier";
 				};
 			};
 		};
@@ -862,11 +863,11 @@ class Mission
 					id=47;
 					side="GUER";
 					vehicle="GUE_Soldier_AR";
-					description="Soldier";
 					player="PLAY CDG";
 					leader=1;
 					skill=0.60000002;
 					text="guer8";
+					description="Soldier";
 				};
 			};
 		};
@@ -882,11 +883,11 @@ class Mission
 					id=48;
 					side="GUER";
 					vehicle="GUE_Soldier_AR";
-					description="Soldier";
 					player="PLAY CDG";
 					leader=1;
 					skill=0.60000002;
 					text="guer9";
+					description="Soldier";
 				};
 			};
 		};
@@ -902,11 +903,11 @@ class Mission
 					id=49;
 					side="GUER";
 					vehicle="GUE_Soldier_AR";
-					description="Soldier";
 					player="PLAY CDG";
 					leader=1;
 					skill=0.60000002;
 					text="guer10";
+					description="Soldier";
 				};
 			};
 		};
@@ -922,11 +923,11 @@ class Mission
 					id=50;
 					side="GUER";
 					vehicle="GUE_Soldier_Medic";
-					description="Medic";
 					player="PLAY CDG";
 					leader=1;
 					skill=0.60000002;
 					text="guer11";
+					description="Medic";
 				};
 			};
 		};
@@ -942,11 +943,11 @@ class Mission
 					id=51;
 					side="GUER";
 					vehicle="GUE_Soldier_Medic";
-					description="Medic";
 					player="PLAY CDG";
 					leader=1;
 					skill=0.60000002;
 					text="guer12";
+					description="Medic";
 				};
 			};
 		};
@@ -962,11 +963,11 @@ class Mission
 					id=52;
 					side="GUER";
 					vehicle="GUE_Soldier_Medic";
-					description="Medic";
 					player="PLAY CDG";
 					leader=1;
 					skill=0.60000002;
 					text="guer13";
+					description="Medic";
 				};
 			};
 		};
@@ -982,11 +983,11 @@ class Mission
 					id=53;
 					side="GUER";
 					vehicle="GUE_Soldier_Medic";
-					description="Medic";
 					player="PLAY CDG";
 					leader=1;
 					skill=0.60000002;
 					text="guer14";
+					description="Medic";
 				};
 			};
 		};
@@ -1002,11 +1003,11 @@ class Mission
 					id=54;
 					side="GUER";
 					vehicle="GUE_Soldier_Medic";
-					description="Medic";
 					player="PLAY CDG";
 					leader=1;
 					skill=0.60000002;
 					text="guer15";
+					description="Medic";
 				};
 			};
 		};
@@ -1022,11 +1023,11 @@ class Mission
 					id=55;
 					side="GUER";
 					vehicle="GUE_Soldier_Sab";
-					description="Engineer";
 					player="PLAY CDG";
 					leader=1;
 					skill=0.60000002;
 					text="guer16";
+					description="Engineer";
 				};
 			};
 		};
@@ -1042,11 +1043,11 @@ class Mission
 					id=56;
 					side="GUER";
 					vehicle="GUE_Soldier_Sab";
-					description="Engineer";
 					player="PLAY CDG";
 					leader=1;
 					skill=0.60000002;
 					text="guer17";
+					description="Engineer";
 				};
 			};
 		};
@@ -1062,11 +1063,11 @@ class Mission
 					id=57;
 					side="GUER";
 					vehicle="GUE_Soldier_Sab";
-					description="Engineer";
 					player="PLAY CDG";
 					leader=1;
 					skill=0.60000002;
 					text="guer18";
+					description="Engineer";
 				};
 			};
 		};
@@ -1082,11 +1083,11 @@ class Mission
 					id=58;
 					side="GUER";
 					vehicle="GUE_Soldier_Sab";
-					description="Engineer";
 					player="PLAY CDG";
 					leader=1;
 					skill=0.60000002;
 					text="guer19";
+					description="Engineer";
 				};
 			};
 		};
@@ -1102,11 +1103,11 @@ class Mission
 					id=59;
 					side="GUER";
 					vehicle="GUE_Soldier_Sab";
-					description="Engineer";
 					player="PLAY CDG";
 					leader=1;
 					skill=0.60000002;
 					text="guer20";
+					description="Engineer";
 				};
 			};
 		};
@@ -1123,11 +1124,11 @@ class Mission
 					id=0;
 					side="WEST";
 					vehicle="FR_Corpsman";
-					description="Medic";
 					player="PLAY CDG";
 					leader=1;
 					skill=0.60000002;
 					text="blufor1";
+					description="Medic";
 				};
 			};
 		};
@@ -1143,11 +1144,11 @@ class Mission
 					id=6;
 					side="WEST";
 					vehicle="FR_Corpsman";
-					description="Medic";
 					player="PLAY CDG";
 					leader=1;
 					skill=0.60000002;
 					text="blufor7";
+					description="Medic";
 				};
 			};
 		};
@@ -1163,11 +1164,11 @@ class Mission
 					id=5;
 					side="WEST";
 					vehicle="FR_Sapper";
-					description="Engineer";
 					player="PLAY CDG";
 					leader=1;
 					skill=0.60000002;
 					text="blufor6";
+					description="Engineer";
 				};
 			};
 		};
@@ -1183,11 +1184,11 @@ class Mission
 					id=4;
 					side="WEST";
 					vehicle="FR_Sapper";
-					description="Engineer";
 					player="PLAY CDG";
 					leader=1;
 					skill=0.60000002;
 					text="blufor5";
+					description="Engineer";
 				};
 			};
 		};
@@ -1203,11 +1204,11 @@ class Mission
 					id=8;
 					side="WEST";
 					vehicle="FR_Sapper";
-					description="Engineer";
 					player="PLAY CDG";
 					leader=1;
 					skill=0.60000002;
 					text="blufor9";
+					description="Engineer";
 				};
 			};
 		};
@@ -1223,11 +1224,11 @@ class Mission
 					id=9;
 					side="WEST";
 					vehicle="FR_Sapper";
-					description="Engineer";
 					player="PLAY CDG";
 					leader=1;
 					skill=0.60000002;
 					text="blufor10";
+					description="Engineer";
 				};
 			};
 		};
@@ -1243,11 +1244,11 @@ class Mission
 					id=1;
 					side="WEST";
 					vehicle="FR_Sapper";
-					description="Engineer";
 					player="PLAY CDG";
 					leader=1;
 					skill=0.60000002;
 					text="blufor2";
+					description="Engineer";
 				};
 			};
 		};
@@ -1461,11 +1462,11 @@ class Mission
 					id=98;
 					side="WEST";
 					vehicle="Baf_soldier_spotter_w";
-					description="Sniper";
 					player="PLAY CDG";
 					leader=1;
 					skill=0.60000002;
 					text="blufor36";
+					description="Sniper";
 				};
 			};
 		};
@@ -1481,11 +1482,11 @@ class Mission
 					id=97;
 					side="WEST";
 					vehicle="Baf_soldier_spotter_w";
-					description="Sniper";
 					player="PLAY CDG";
 					leader=1;
 					skill=0.60000002;
 					text="blufor31";
+					description="Sniper";
 				};
 			};
 		};
@@ -1501,11 +1502,11 @@ class Mission
 					id=102;
 					side="WEST";
 					vehicle="Baf_soldier_spotter_w";
-					description="Sniper";
 					player="PLAY CDG";
 					leader=1;
 					skill=0.60000002;
 					text="blufor37";
+					description="Sniper";
 				};
 			};
 		};
@@ -1521,11 +1522,11 @@ class Mission
 					id=105;
 					side="WEST";
 					vehicle="Baf_soldier_spotter_w";
-					description="Sniper";
 					player="PLAY CDG";
 					leader=1;
 					skill=0.60000002;
 					text="blufor33";
+					description="Sniper";
 				};
 			};
 		};
@@ -1541,11 +1542,11 @@ class Mission
 					id=106;
 					side="WEST";
 					vehicle="Baf_soldier_spotter_w";
-					description="Sniper";
 					player="PLAY CDG";
 					leader=1;
 					skill=0.60000002;
 					text="blufor38";
+					description="Sniper";
 				};
 			};
 		};
@@ -1561,11 +1562,11 @@ class Mission
 					id=107;
 					side="WEST";
 					vehicle="USMC_Soldier";
-					description="Solider";
 					player="PLAY CDG";
 					leader=1;
 					skill=0.60000002;
 					text="blufor24";
+					description="Solider";
 				};
 			};
 		};
@@ -1581,11 +1582,11 @@ class Mission
 					id=108;
 					side="WEST";
 					vehicle="USMC_Soldier";
-					description="Solider";
 					player="PLAY CDG";
 					leader=1;
 					skill=0.60000002;
 					text="blufor29";
+					description="Solider";
 				};
 			};
 		};
@@ -1601,11 +1602,11 @@ class Mission
 					id=109;
 					side="WEST";
 					vehicle="USMC_Soldier";
-					description="Solider";
 					player="PLAY CDG";
 					leader=1;
 					skill=0.60000002;
 					text="blufor34";
+					description="Solider";
 				};
 			};
 		};
@@ -1621,11 +1622,11 @@ class Mission
 					id=110;
 					side="WEST";
 					vehicle="USMC_Soldier";
-					description="Solider";
 					player="PLAY CDG";
 					leader=1;
 					skill=0.60000002;
 					text="blufor39";
+					description="Solider";
 				};
 			};
 		};
@@ -1641,11 +1642,11 @@ class Mission
 					id=111;
 					side="WEST";
 					vehicle="USMC_Soldier";
-					description="Solider";
 					player="PLAY CDG";
 					leader=1;
 					skill=0.60000002;
 					text="blufor25";
+					description="Solider";
 				};
 			};
 		};
@@ -1661,11 +1662,11 @@ class Mission
 					id=112;
 					side="WEST";
 					vehicle="USMC_Soldier";
-					description="Solider";
 					player="PLAY CDG";
 					leader=1;
 					skill=0.60000002;
 					text="blufor30";
+					description="Solider";
 				};
 			};
 		};
@@ -1681,11 +1682,11 @@ class Mission
 					id=113;
 					side="WEST";
 					vehicle="USMC_Soldier";
-					description="Solider";
 					player="PLAY CDG";
 					leader=1;
 					skill=0.60000002;
 					text="blufor35";
+					description="Solider";
 				};
 			};
 		};
@@ -1701,11 +1702,11 @@ class Mission
 					id=114;
 					side="WEST";
 					vehicle="USMC_Soldier";
-					description="Solider";
 					player="PLAY CDG";
 					leader=1;
 					skill=0.60000002;
 					text="blufor40";
+					description="Solider";
 				};
 			};
 		};
@@ -1722,11 +1723,11 @@ class Mission
 					id=95;
 					side="WEST";
 					vehicle="USMC_Soldier";
-					description="Solider";
 					player="PLAY CDG";
 					leader=1;
 					skill=0.60000002;
 					text="blufor21";
+					description="Solider";
 				};
 			};
 		};
@@ -1742,11 +1743,11 @@ class Mission
 					id=101;
 					side="WEST";
 					vehicle="USMC_Soldier";
-					description="Solider";
 					player="PLAY CDG";
 					leader=1;
 					skill=0.60000002;
 					text="blufor32";
+					description="Solider";
 				};
 			};
 		};
@@ -1762,11 +1763,11 @@ class Mission
 					id=100;
 					side="WEST";
 					vehicle="USMC_Soldier";
-					description="Solider";
 					player="PLAY CDG";
 					leader=1;
 					skill=0.60000002;
 					text="blufor27";
+					description="Solider";
 				};
 			};
 		};
@@ -1782,11 +1783,11 @@ class Mission
 					id=99;
 					side="WEST";
 					vehicle="USMC_Soldier";
-					description="Solider";
 					player="PLAY CDG";
 					leader=1;
 					skill=0.60000002;
 					text="blufor22";
+					description="Solider";
 				};
 			};
 		};
@@ -1802,11 +1803,11 @@ class Mission
 					id=103;
 					side="WEST";
 					vehicle="USMC_Soldier";
-					description="Solider";
 					player="PLAY CDG";
 					leader=1;
 					skill=0.60000002;
 					text="blufor23";
+					description="Solider";
 				};
 			};
 		};
@@ -1822,11 +1823,11 @@ class Mission
 					id=104;
 					side="WEST";
 					vehicle="USMC_Soldier";
-					description="Solider";
 					player="PLAY CDG";
 					leader=1;
 					skill=0.60000002;
 					text="blufor28";
+					description="Solider";
 				};
 			};
 		};
@@ -1842,11 +1843,11 @@ class Mission
 					id=96;
 					side="WEST";
 					vehicle="USMC_Soldier";
-					description="Solider";
 					player="PLAY CDG";
 					leader=1;
 					skill=0.60000002;
 					text="blufor26";
+					description="Solider";
 				};
 			};
 		};
@@ -1862,11 +1863,11 @@ class Mission
 					id=115;
 					side="EAST";
 					vehicle="RU_Soldier_Spotter";
-					description="Sniper";
 					player="PLAY CDG";
 					leader=1;
 					skill=0.60000002;
 					text="opfor21";
+					description="Sniper";
 				};
 			};
 		};
@@ -1882,11 +1883,11 @@ class Mission
 					id=116;
 					side="EAST";
 					vehicle="RU_Soldier_Spotter";
-					description="Sniper";
 					player="PLAY CDG";
 					leader=1;
 					skill=0.60000002;
 					text="opfor26";
+					description="Sniper";
 				};
 			};
 		};
@@ -1902,11 +1903,11 @@ class Mission
 					id=117;
 					side="EAST";
 					vehicle="RU_Soldier_Spotter";
-					description="Sniper";
 					player="PLAY CDG";
 					leader=1;
 					skill=0.60000002;
 					text="opfor31";
+					description="Sniper";
 				};
 			};
 		};
@@ -1922,11 +1923,11 @@ class Mission
 					id=118;
 					side="EAST";
 					vehicle="RU_Soldier_Spotter";
-					description="Sniper";
 					player="PLAY CDG";
 					leader=1;
 					skill=0.60000002;
 					text="opfor36";
+					description="Sniper";
 				};
 			};
 		};
@@ -1942,11 +1943,11 @@ class Mission
 					id=119;
 					side="EAST";
 					vehicle="RU_Soldier_Spotter";
-					description="Sniper";
 					player="PLAY CDG";
 					leader=1;
 					skill=0.60000002;
 					text="opfor22";
+					description="Sniper";
 				};
 			};
 		};
@@ -1962,11 +1963,11 @@ class Mission
 					id=120;
 					side="EAST";
 					vehicle="RU_Soldier";
-					description="Soldier";
 					player="PLAY CDG";
 					leader=1;
 					skill=0.60000002;
 					text="opfor27";
+					description="Soldier";
 				};
 			};
 		};
@@ -1982,11 +1983,11 @@ class Mission
 					id=121;
 					side="EAST";
 					vehicle="RU_Soldier";
-					description="Soldier";
 					player="PLAY CDG";
 					leader=1;
 					skill=0.60000002;
 					text="opfor32";
+					description="Soldier";
 				};
 			};
 		};
@@ -2002,11 +2003,11 @@ class Mission
 					id=122;
 					side="EAST";
 					vehicle="RU_Soldier";
-					description="Soldier";
 					player="PLAY CDG";
 					leader=1;
 					skill=0.60000002;
 					text="opfor37";
+					description="Soldier";
 				};
 			};
 		};
@@ -2022,11 +2023,11 @@ class Mission
 					id=123;
 					side="EAST";
 					vehicle="RU_Soldier";
-					description="Soldier";
 					player="PLAY CDG";
 					leader=1;
 					skill=0.60000002;
 					text="opfor38";
+					description="Soldier";
 				};
 			};
 		};
@@ -2042,11 +2043,11 @@ class Mission
 					id=124;
 					side="EAST";
 					vehicle="RU_Soldier";
-					description="Soldier";
 					player="PLAY CDG";
 					leader=1;
 					skill=0.60000002;
 					text="opfor33";
+					description="Soldier";
 				};
 			};
 		};
@@ -2062,11 +2063,11 @@ class Mission
 					id=125;
 					side="EAST";
 					vehicle="RU_Soldier";
-					description="Soldier";
 					player="PLAY CDG";
 					leader=1;
 					skill=0.60000002;
 					text="opfor28";
+					description="Soldier";
 				};
 			};
 		};
@@ -2082,11 +2083,11 @@ class Mission
 					id=126;
 					side="EAST";
 					vehicle="RU_Soldier";
-					description="Soldier";
 					player="PLAY CDG";
 					leader=1;
 					skill=0.60000002;
 					text="opfor23";
+					description="Soldier";
 				};
 			};
 		};
@@ -2102,11 +2103,11 @@ class Mission
 					id=127;
 					side="EAST";
 					vehicle="RU_Soldier";
-					description="Soldier";
 					player="PLAY CDG";
 					leader=1;
 					skill=0.60000002;
 					text="opfor24";
+					description="Soldier";
 				};
 			};
 		};
@@ -2122,11 +2123,11 @@ class Mission
 					id=128;
 					side="EAST";
 					vehicle="RU_Soldier";
-					description="Soldier";
 					player="PLAY CDG";
 					leader=1;
 					skill=0.60000002;
 					text="opfor29";
+					description="Soldier";
 				};
 			};
 		};
@@ -2142,11 +2143,11 @@ class Mission
 					id=129;
 					side="EAST";
 					vehicle="RU_Soldier";
-					description="Soldier";
 					player="PLAY CDG";
 					leader=1;
 					skill=0.60000002;
 					text="opfor34";
+					description="Soldier";
 				};
 			};
 		};
@@ -2162,11 +2163,11 @@ class Mission
 					id=130;
 					side="EAST";
 					vehicle="RU_Soldier";
-					description="Soldier";
 					player="PLAY CDG";
 					leader=1;
 					skill=0.60000002;
 					text="opfor39";
+					description="Soldier";
 				};
 			};
 		};
@@ -2182,11 +2183,11 @@ class Mission
 					id=131;
 					side="EAST";
 					vehicle="RU_Soldier";
-					description="Soldier";
 					player="PLAY CDG";
 					leader=1;
 					skill=0.60000002;
 					text="opfor25";
+					description="Soldier";
 				};
 			};
 		};
@@ -2202,11 +2203,11 @@ class Mission
 					id=132;
 					side="EAST";
 					vehicle="RU_Soldier";
-					description="Soldier";
 					player="PLAY CDG";
 					leader=1;
 					skill=0.60000002;
 					text="opfor30";
+					description="Soldier";
 				};
 			};
 		};
@@ -2222,11 +2223,11 @@ class Mission
 					id=133;
 					side="EAST";
 					vehicle="RU_Soldier";
-					description="Soldier";
 					player="PLAY CDG";
 					leader=1;
 					skill=0.60000002;
 					text="opfor35";
+					description="Soldier";
 				};
 			};
 		};
@@ -2242,11 +2243,11 @@ class Mission
 					id=134;
 					side="EAST";
 					vehicle="RU_Soldier";
-					description="Soldier";
 					player="PLAY CDG";
 					leader=1;
 					skill=0.60000002;
 					text="opfor40";
+					description="Soldier";
 				};
 			};
 		};
@@ -2262,11 +2263,11 @@ class Mission
 					id=135;
 					side="GUER";
 					vehicle="GUE_Soldier_Scout";
-					description="Sniper";
 					player="PLAY CDG";
 					leader=1;
 					skill=0.60000002;
 					text="guer21";
+					description="Sniper";
 				};
 			};
 		};
@@ -2282,11 +2283,11 @@ class Mission
 					id=136;
 					side="GUER";
 					vehicle="GUE_Soldier_Scout";
-					description="Sniper";
 					player="PLAY CDG";
 					leader=1;
 					skill=0.60000002;
 					text="guer26";
+					description="Sniper";
 				};
 			};
 		};
@@ -2302,11 +2303,11 @@ class Mission
 					id=137;
 					side="GUER";
 					vehicle="GUE_Soldier_Scout";
-					description="Sniper";
 					player="PLAY CDG";
 					leader=1;
 					skill=0.60000002;
 					text="guer31";
+					description="Sniper";
 				};
 			};
 		};
@@ -2322,11 +2323,11 @@ class Mission
 					id=138;
 					side="GUER";
 					vehicle="GUE_Soldier_Scout";
-					description="Sniper";
 					player="PLAY CDG";
 					leader=1;
 					skill=0.60000002;
 					text="guer36";
+					description="Sniper";
 				};
 			};
 		};
@@ -2342,11 +2343,11 @@ class Mission
 					id=139;
 					side="GUER";
 					vehicle="GUE_Soldier_Scout";
-					description="Sniper";
 					player="PLAY CDG";
 					leader=1;
 					skill=0.60000002;
 					text="guer22";
+					description="Sniper";
 				};
 			};
 		};
@@ -2362,11 +2363,11 @@ class Mission
 					id=140;
 					side="GUER";
 					vehicle="GUE_Soldier_AR";
-					description="Soldier";
 					player="PLAY CDG";
 					leader=1;
 					skill=0.60000002;
 					text="guer27";
+					description="Soldier";
 				};
 			};
 		};
@@ -2382,11 +2383,11 @@ class Mission
 					id=141;
 					side="GUER";
 					vehicle="GUE_Soldier_AR";
-					description="Soldier";
 					player="PLAY CDG";
 					leader=1;
 					skill=0.60000002;
 					text="guer32";
+					description="Soldier";
 				};
 			};
 		};
@@ -2402,11 +2403,11 @@ class Mission
 					id=142;
 					side="GUER";
 					vehicle="GUE_Soldier_AR";
-					description="Soldier";
 					player="PLAY CDG";
 					leader=1;
 					skill=0.60000002;
 					text="guer37";
+					description="Soldier";
 				};
 			};
 		};
@@ -2422,11 +2423,11 @@ class Mission
 					id=143;
 					side="GUER";
 					vehicle="GUE_Soldier_AR";
-					description="Soldier";
 					player="PLAY CDG";
 					leader=1;
 					skill=0.60000002;
 					text="guer23";
+					description="Soldier";
 				};
 			};
 		};
@@ -2442,11 +2443,11 @@ class Mission
 					id=144;
 					side="GUER";
 					vehicle="GUE_Soldier_AR";
-					description="Soldier";
 					player="PLAY CDG";
 					leader=1;
 					skill=0.60000002;
 					text="guer28";
+					description="Soldier";
 				};
 			};
 		};
@@ -2462,11 +2463,11 @@ class Mission
 					id=145;
 					side="GUER";
 					vehicle="GUE_Soldier_AR";
-					description="Soldier";
 					player="PLAY CDG";
 					leader=1;
 					skill=0.60000002;
 					text="guer33";
+					description="Soldier";
 				};
 			};
 		};
@@ -2482,11 +2483,11 @@ class Mission
 					id=146;
 					side="GUER";
 					vehicle="GUE_Soldier_AR";
-					description="Soldier";
 					player="PLAY CDG";
 					leader=1;
 					skill=0.60000002;
 					text="guer38";
+					description="Soldier";
 				};
 			};
 		};
@@ -2502,11 +2503,11 @@ class Mission
 					id=147;
 					side="GUER";
 					vehicle="GUE_Soldier_AR";
-					description="Soldier";
 					player="PLAY CDG";
 					leader=1;
 					skill=0.60000002;
 					text="guer24";
+					description="Soldier";
 				};
 			};
 		};
@@ -2522,11 +2523,11 @@ class Mission
 					id=148;
 					side="GUER";
 					vehicle="GUE_Soldier_AR";
-					description="Soldier";
 					player="PLAY CDG";
 					leader=1;
 					skill=0.60000002;
 					text="guer29";
+					description="Soldier";
 				};
 			};
 		};
@@ -2542,11 +2543,11 @@ class Mission
 					id=149;
 					side="GUER";
 					vehicle="GUE_Soldier_AR";
-					description="Soldier";
 					player="PLAY CDG";
 					leader=1;
 					skill=0.60000002;
 					text="guer34";
+					description="Soldier";
 				};
 			};
 		};
@@ -2562,11 +2563,11 @@ class Mission
 					id=150;
 					side="GUER";
 					vehicle="GUE_Soldier_AR";
-					description="Soldier";
 					player="PLAY CDG";
 					leader=1;
 					skill=0.60000002;
 					text="guer39";
+					description="Soldier";
 				};
 			};
 		};
@@ -2582,11 +2583,11 @@ class Mission
 					id=151;
 					side="GUER";
 					vehicle="GUE_Soldier_AR";
-					description="Soldier";
 					player="PLAY CDG";
 					leader=1;
 					skill=0.60000002;
 					text="guer25";
+					description="Soldier";
 				};
 			};
 		};
@@ -2602,11 +2603,11 @@ class Mission
 					id=152;
 					side="GUER";
 					vehicle="GUE_Soldier_AR";
-					description="Soldier";
 					player="PLAY CDG";
 					leader=1;
 					skill=0.60000002;
 					text="guer30";
+					description="Soldier";
 				};
 			};
 		};
@@ -2622,11 +2623,11 @@ class Mission
 					id=153;
 					side="GUER";
 					vehicle="GUE_Soldier_AR";
-					description="Soldier";
 					player="PLAY CDG";
 					leader=1;
 					skill=0.60000002;
 					text="guer35";
+					description="Soldier";
 				};
 			};
 		};
@@ -2642,11 +2643,11 @@ class Mission
 					id=154;
 					side="GUER";
 					vehicle="GUE_Soldier_AR";
-					description="Soldier";
 					player="PLAY CDG";
 					leader=1;
 					skill=0.60000002;
 					text="guer40";
+					description="Soldier";
 				};
 			};
 		};
@@ -3037,7 +3038,7 @@ class Mission
 	};
 	class Markers
 	{
-		items=922;
+		items=950;
 		class Item0
 		{
 			position[]={10472.047,6,2300.7461};
@@ -5296,7 +5297,7 @@ class Mission
 		};
 		class Item376
 		{
-			position[]={2725.4309,258.9722,5989.5225};
+			position[]={2735.5642,253.14598,5946.1504};
 			name="Spawn_359";
 			type="Empty";
 		};
@@ -7792,7 +7793,7 @@ class Mission
 		};
 		class Item791
 		{
-			position[]={11066.188,300.81674,5137.5586};
+			position[]={11067.297,300.59726,5144.9438};
 			name="heliSpawn_7";
 			type="Empty";
 			colorName="ColorGreen";
@@ -8705,6 +8706,202 @@ class Mission
 			name="heliSpawn_40";
 			type="Empty";
 			colorName="ColorGreen";
+		};
+		class Item922
+		{
+			position[]={3859.8623,310.98706,8789.9873};
+			name="LBSpawn_1";
+			type="Empty";
+			colorName="ColorBlack";
+		};
+		class Item923
+		{
+			position[]={6317.3081,305.07822,7794.4546};
+			name="LBSpawn_2";
+			type="Empty";
+			colorName="ColorBlack";
+		};
+		class Item924
+		{
+			position[]={6008.2212,277.89566,10217.468};
+			name="LBSpawn_3";
+			type="Empty";
+			colorName="ColorBlack";
+		};
+		class Item925
+		{
+			position[]={7057.4463,5.9968185,3182.3857};
+			name="LBSpawn_4";
+			type="Empty";
+			colorName="ColorBlack";
+		};
+		class Item926
+		{
+			position[]={2813.575,134.43504,3133.8438};
+			name="LBSpawn_5";
+			type="Empty";
+			colorName="ColorBlack";
+		};
+		class Item927
+		{
+			position[]={12527.754,6.165339,3584.4004};
+			name="LBSpawn_6";
+			type="Empty";
+			colorName="ColorBlack";
+		};
+		class Item928
+		{
+			position[]={10034.904,281.92773,8566.8291};
+			name="LBSpawn_7";
+			type="Empty";
+			colorName="ColorBlack";
+		};
+		class Item929
+		{
+			position[]={7080.4033,304.32928,7936.2744};
+			name="LBSpawn_8";
+			type="Empty";
+			colorName="ColorBlack";
+		};
+		class Item930
+		{
+			position[]={3142.7783,366.547,6714.5747};
+			name="LBSpawn_9";
+			type="Empty";
+			colorName="ColorBlack";
+		};
+		class Item931
+		{
+			position[]={3077.7048,278.36621,9346.3496};
+			name="LBSpawn_10";
+			type="Empty";
+			colorName="ColorBlack";
+		};
+		class Item932
+		{
+			position[]={9607.2969,87.499001,13532.973};
+			name="LBSpawn_11";
+			type="Empty";
+			colorName="ColorBlack";
+		};
+		class Item933
+		{
+			position[]={13038.419,5.9899998,7338.9004};
+			name="LBSpawn_12";
+			type="Empty";
+			colorName="ColorBlack";
+		};
+		class Item934
+		{
+			position[]={13155.809,5.8240452,5471.541};
+			name="LBSpawn_13";
+			type="Empty";
+			colorName="ColorBlack";
+		};
+		class Item935
+		{
+			position[]={7056.3096,5.9993238,2794.1628};
+			name="LBSpawn_14";
+			type="Empty";
+			colorName="ColorBlack";
+		};
+		class Item936
+		{
+			position[]={4764.9717,365.6196,5375.2451};
+			name="LBSpawn_15";
+			type="Empty";
+			colorName="ColorBlack";
+		};
+		class Item937
+		{
+			position[]={2708.7449,256.43436,5985.9624};
+			name="LBSpawn_16";
+			type="Empty";
+			colorName="ColorBlack";
+		};
+		class Item938
+		{
+			position[]={1837.6089,129.9628,3797.2402};
+			name="LBSpawn_17";
+			type="Empty";
+			colorName="ColorBlack";
+		};
+		class Item939
+		{
+			position[]={11249.821,269.16318,8322.1494};
+			name="LBSpawn_18";
+			type="Empty";
+			colorName="ColorBlack";
+		};
+		class Item940
+		{
+			position[]={12299.311,33.914539,9239.5977};
+			name="LBSpawn_19";
+			type="Empty";
+			colorName="ColorBlack";
+		};
+		class Item941
+		{
+			position[]={8661.208,218.44907,11595.709};
+			name="LBSpawn_20";
+			type="Empty";
+			colorName="ColorBlack";
+		};
+		class Item942
+		{
+			position[]={4921.1465,270.14499,6812.0854};
+			name="LBSpawn_21";
+			type="Empty";
+			colorName="ColorBlack";
+		};
+		class Item943
+		{
+			position[]={5867.7349,153.21883,5084.4619};
+			name="LBSpawn_22";
+			type="Empty";
+			colorName="ColorBlack";
+		};
+		class Item944
+		{
+			position[]={3238.0361,240.12732,5054.4404};
+			name="LBSpawn_23";
+			type="Empty";
+			colorName="ColorBlack";
+		};
+		class Item945
+		{
+			position[]={11816.872,202.45923,4549.2271};
+			name="LBSpawn_24";
+			type="Empty";
+			colorName="ColorBlack";
+		};
+		class Item946
+		{
+			position[]={9357.0586,174.79753,3182.3584};
+			name="LBSpawn_26";
+			type="Empty";
+			colorName="ColorBlack";
+		};
+		class Item947
+		{
+			position[]={3996.3218,360.64374,11649.501};
+			name="LBSpawn_25";
+			type="Empty";
+			colorName="ColorBlack";
+		};
+		class Item948
+		{
+			position[]={9992.5859,283.40179,5987.4985};
+			name="LBSpawn_27";
+			type="Empty";
+			colorName="ColorBlack";
+		};
+		class Item949
+		{
+			position[]={6564.1572,340.11966,9418.2949};
+			name="LBSpawn_28";
+			type="Empty";
+			colorName="ColorBlack";
 		};
 	};
 };
