@@ -163,7 +163,18 @@
 			onButtonClick = "[0] execVM 'client\functions\spawnAction.sqf'";
 			text = "Random";
 
-			x = 0.460* safezoneW + safezoneX;
+			x = 0.406* safezoneW + safezoneX;
+			y = 0.310 * safezoneH + safezoneY;
+			w = 0.078 * safezoneW;
+			h = 0.033 * safezoneH;
+		};
+		class RandomSpawnHaloButton: w_RscButton
+		{
+			idc = -1;
+			onButtonClick = "[0] execVM 'client\functions\spawnActionHalo.sqf'";
+			text = "Random HALO";
+
+			x = 0.515 * safezoneW + safezoneX;
 			y = 0.310 * safezoneH + safezoneY;
 			w = 0.078 * safezoneW;
 			h = 0.033 * safezoneH;
