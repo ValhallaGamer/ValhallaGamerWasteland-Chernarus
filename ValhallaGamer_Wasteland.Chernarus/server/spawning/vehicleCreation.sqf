@@ -24,8 +24,8 @@ if (_type == 0) then {
     clearWeaponCargoGlobal _car;
 
 	//Set Cars Attributes
-    _car setFuel (1);
-    _car setDamage (0);
+    _car setFuel (0.50);
+    _car setDamage (random 0.50);
     _car setDir (random 360);
 	_car setVelocity [0,0,1];
 	_car disableTIEquipment true;
@@ -49,8 +49,8 @@ if (_type == 1) then {
     clearWeaponCargoGlobal _car;
 
 	//Set Cars Attributes
-    _car setFuel (1);
-    _car setDamage (0);
+    _car setFuel (0.50);
+    _car setDamage (random 0.50);
     _car setDir (random 360);
 	_car setVelocity [0,0,1];
 	_car disableTIEquipment true;
@@ -74,8 +74,8 @@ if (_type == 2) then {
     clearWeaponCargoGlobal _car;
 
 	//Set Cars Attributes
-    _car setFuel (1);
-    _car setDamage (0);
+    _car setFuel (0.50);
+    _car setDamage (random 0.50);
     _car setDir (random 360);
     _car setVehicleAmmo (random 0.90);
 	_car setVelocity [0,0,1];
