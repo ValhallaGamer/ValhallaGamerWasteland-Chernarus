@@ -23,7 +23,6 @@ mission_VIP = compile preprocessFileLineNumbers "server\missions\mainMissions\mi
 //Side Mission Compiles
 mission_AirWreck = compile preprocessFileLineNumbers "server\missions\sideMissions\mission_AirWreck.sqf";
 mission_Truck = compile preprocessFileLineNumbers "server\missions\sideMissions\mission_Truck.sqf";
-mission_ReconVeh = compile preprocessFileLineNumbers "server\missions\sideMissions\mission_ReconVeh.sqf";
 mission_WepCache = compile preprocessFileLineNumbers "server\missions\sideMissions\mission_WepCache.sqf";
 mission_SmallHeli = compile preprocessFileLineNumbers "server\missions\sideMissions\mission_SmallHeli.sqf";
 
