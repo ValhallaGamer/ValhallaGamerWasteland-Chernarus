@@ -183,6 +183,49 @@ generalStore = [
     ["Camo Net", "camonet", localize "STR_WL_ShopDescriptions_Camo", "client\icons\tent.paa",300,150]  
 ];
 
+BuildStoreArray = [
+	["Defenses (KORD High MG)", 200, "KORD_high"],
+	["Defenses (KORD Mini MG)", 200, "KORD"],
+	["Defenses (L2A1 High MG, scope)", 400, "BAF_L2A1_Tripod_D"],
+	["Defenses (AGS Grenade Launcher)", 800, "AGS_RU"],
+	["Defenses (ZU23 AA Turret)", 800, "ZU23_TK_EP1"],
+	["Defenses (IGLA AA Missile Pod)", 1000, "Igla_AA_pod_TK_EP1"],
+	["Fortification, Deerstand", 20, "Land_Misc_deerstand"],
+	["Fortification, Sandbag Bunker (big)", 20, "Land_fortified_nest_big"],
+	["Fortification, Sandbag Camp (large)", 20, "WarfareBCamp"],
+	["Fortification, Sandbag Depot (huge)", 50, "WarfareBDepot"],
+	["Fortification, Sandbag Nest (small)", 5, "Land_fortified_nest_small"],
+	["Fortification, Watchtower", 5, "Land_Fort_Watchtower"],
+	["Fortification, Wooden Guard Shed", 5, "Land_GuardShed"],
+	["Misc, MASH Tent", 50, "MASH"],
+	["Misc, Storage Tent", 25, "Land_tent_east"],
+	["Misc, Concrete Pipe", 25, "Land_Misc_ConcPipeline_EP1"],
+	["Ramp, Artillery Nest", 25, "Land_fort_artillery_nest"],
+	["Ramp, Concrete (high)", 25, "Land_ConcreteRamp"],
+	["Ramp, Concrete (low)", 25, "RampConcrete"],
+	["Ramp, Earthern Rampart", 10, "Land_fort_rampart"],
+	["Ramp, Scaffolding (high) ", 10, "Land_Misc_Scaffolding"],
+	["Ramp, Scaffolding", 10, "Land_leseni2x"],
+	["Ramp, Wooden Bridge", 10, "Land_prebehlavka"],
+	["Roadblock, Concrete, Striped", 5, "Land_CncBlock_Stripes"],
+	["Roadblock, Concrete Teeth", 10, "Hhedgehog_concreteBig"],
+	["Roadblock, Rubbish Barricade", 5, "Fort_Barricade"],
+	["Roadblock, Steel Hedgehog", 5, "Hedgehog"],
+	["Storage Container (150x)", 100, "Land_Misc_Cargo1D"],
+	["Storage, Wooden Box (20x)", 20, "Fort_Crate_wood"],
+	["Wall, Concrete", 20, "Concrete_Wall_EP1"],
+	["Wall, Concrete Block", 25, "Land_ConcreteBlock"],
+	["Wall, HESCO, Brown (long, high)", 20, "Base_WarfareBBarrier10xTall"],
+	["Wall, HESCO, Brown (long, low)", 10, "Base_WarfareBBarrier10x"],
+	["Wall, HESCO, Brown (short, low)", 10, "Base_WarfareBBarrier5x"],
+	["Wall, HESCO, Grey (short, high)", 10, "Land_HBarrier_large"],
+	["Wall, Razor Wire", 25, "Fort_RazorWire"],
+	["Wall, Sandbag (corner)", 5, "Land_fort_bagfence_corner"],
+	["Wall, Sandbag (long)", 5, "Land_fort_bagfence_long"],
+	["Wall, Sandbag (round)", 5, "Land_fort_bagfence_round"],
+	["Wall, Sandbag Fence (long)", 5, "Land_BagFenceLong"]
+];
+
 // Chernarus town and city array
 //Marker Name, Radius, City Name
 cityList = [

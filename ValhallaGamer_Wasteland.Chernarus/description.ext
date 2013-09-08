@@ -19,6 +19,7 @@ class Header
 #include "client\systems\gunStore\dialog\gunshop_settings.hpp"
 #include "client\systems\gunStore\dialog\gunshop_ConfirmSell.hpp"
 #include "client\systems\generalStore\dialog\genstore_settings.hpp"
+#include "client\systems\BuildStore\dialog\buildshop_settings.hpp"
 #include "client\systems\adminPanel\dialog\adminMenu.hpp"
 #include "client\systems\adminPanel\dialog\modMenu.hpp"
 #include "client\systems\adminPanel\dialog\serverAdminMenu.hpp"

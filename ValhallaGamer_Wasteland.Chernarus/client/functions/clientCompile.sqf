@@ -38,6 +38,11 @@ loadGunStore = compile preprocessFileLineNumbers "client\systems\gunStore\loadGu
 loadSellConfirm = compile preprocessFileLineNumbers "client\systems\gunStore\loadSellConfirm.sqf";
 sellWeaponConfirmed = compile preprocessFileLineNumbers "client\systems\gunStore\sellWeaponConfirmed.sqf";
 
+// Building Dialog compiles
+loadbuildStore = compile preprocessFileLineNumbers "client\systems\BuildStore\loadBuildStore.sqf";
+PopulatebuildStore = compile preprocessFileLineNumbers "client\systems\BuildStore\populateBuildStore.sqf";
+buildItemInfo = compile preprocessFileLineNumbers "client\systems\BuildStore\itemInfo.sqf";
+
 player groupChat "Client Compile Complete";
 sleep 1;
 playerCompiledScripts = true;

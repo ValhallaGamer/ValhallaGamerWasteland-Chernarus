@@ -55,7 +55,8 @@ while {true} do
         
     _gunStore = nearestObjects [_currPos, ["CIV_Contractor1_BAF"], _storeInteractionZone];    
     _genStore = nearestObjects [_currPos, ["TK_CIV_Takistani04_EP1"], _storeInteractionZone];  
-     
+    _buildStore = nearestObjects [_currPos, ["SatPhone"], _storeInteractionZone];  
+
     if (!isNull (_gunStore select 0)) then {  
         _relativeDir = [player, _gunStore select 0] call BIS_fnc_relativeDirTo;
        	_absoluteDir = abs _relativeDir;      
@@ -73,6 +74,16 @@ while {true} do
         if (_absoluteDir < _storeInteractionBuffer OR _absoluteDir > (360 - _storeInteractionBuffer)) then {
         	_nameString = "<t size='0.5' shadow='2' color='#FFFFFF'>" + "General Store (Press E)" + "</t>";
        		[_nameString,0,0.8,0.1,0,0,3] spawn bis_fnc_dynamicText;
+        };
+    };
+    
+    if (!isNull (_buildStore select 0)) then {
+        _relativeDir = [player, _buildStore select 0] call BIS_fnc_relativeDirTo;
+        _absoluteDir = abs _relativeDir;      
+        
+        if (_absoluteDir < _storeInteractionBuffer OR _absoluteDir > (360 - _storeInteractionBuffer)) then {
+            _nameString = "<t size='0.5' shadow='2' color='#FFFFFF'>" + "Building Store (Press E)" + "</t>";
+            [_nameString,0,0.8,0.1,0,0,3] spawn bis_fnc_dynamicText;
         };
     };
     

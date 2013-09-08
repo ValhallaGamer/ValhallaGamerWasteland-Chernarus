@@ -46,7 +46,8 @@ switch _key do
         
         _gunStore = nearestObjects [_currPos, ["CIV_Contractor1_BAF"], _storeInteractionZone];    
         _genStore = nearestObjects [_currPos, ["TK_CIV_Takistani04_EP1"], _storeInteractionZone];   
-        
+        _buildStore = nearestObjects [_currPos, ["SatPhone"], _storeInteractionZone];
+
         if (!isNull (_gunStore select 0)) then {
         	_relativeDir = [player, _gunStore select 0] call BIS_fnc_relativeDirTo;
        		_absoluteDir = abs _relativeDir;
@@ -66,7 +67,19 @@ switch _key do
 				//Great success! Player is actually looking at the store keeper and is close by.
                 if (dialog) exitwith { closeDialog 0; }; // Check a current dialog is not already active.
             	[] spawn loadGeneralStore;
-        	};   
+        	};
+        };
+
+        if (!isNull (_buildStore select 0)) then {
+            
+            _relativeDir = [player, _buildStore select 0] call BIS_fnc_relativeDirTo;
+            _absoluteDir = abs _relativeDir;
+            
+            if (_absoluteDir < _storeInteractionBuffer OR _absoluteDir > (360 - _storeInteractionBuffer)) then {
+                //Great success! Player is actually looking at the store keeper and is close by.
+                _vs = _buildStore select 0;
+                [_vs] execVM "client\systems\BuildStore\loadBuildStore.sqf";
+            };   
         };  
         
     };
