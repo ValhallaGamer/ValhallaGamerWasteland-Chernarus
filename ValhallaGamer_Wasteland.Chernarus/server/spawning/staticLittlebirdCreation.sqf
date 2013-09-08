@@ -18,7 +18,7 @@ _currHeli = createVehicle [_spawnType,_spawnPos,[], 50,"None"];
 	
 _currHeli setpos [getpos _currHeli select 0,getpos _currHeli select 1,0];
 //   veh = [this, Delay, Deserted timer, Respawns, Effect, Static] execVM "vehicle.sqf"
-_currHeli setVehicleInit "nul=[this, 300, 0, 0, false, false, 'clearMagazineCargoGlobal this; clearWeaponCargoGlobal this;'] execVM 'server\functions\heliRespawning.sqf'";
+_currHeli setVehicleInit "nul=[this, 300, 0, 0, false, false, 'clearMagazineCargoGlobal this; clearWeaponCargoGlobal this;'] execVM 'server\functions\vehicle.sqf'";
 _currHeliLocation = getPosATL _currHeli;
 processInitCommands;
 _currHeli disableTIEquipment true;

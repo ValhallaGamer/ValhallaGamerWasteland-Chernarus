@@ -19,7 +19,7 @@ if (_isWreck == 0) then {
 	
 	_currHeli setpos [getpos _currHeli select 0,getpos _currHeli select 1,0];
 	//   veh = [this, Delay, Deserted timer, Respawns, Effect, Static] execVM "vehicle.sqf"
-	_currHeli setVehicleInit "nul=[this, 600, 0, 0, false, false, 'clearMagazineCargoGlobal this; clearWeaponCargoGlobal this;'] execVM 'server\functions\heliRespawning.sqf'";
+	_currHeli setVehicleInit "nul=[this, 600, 0, 0, false, false, 'clearMagazineCargoGlobal this; clearWeaponCargoGlobal this;'] execVM 'server\functions\vehicle.sqf'";
 	_currHeliLocation = getPosATL _currHeli;
     processInitCommands;
 	clearMagazineCargoGlobal _currHeli;
