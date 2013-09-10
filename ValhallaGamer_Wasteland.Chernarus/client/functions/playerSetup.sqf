@@ -1,4 +1,3 @@
-
 //	@file Name: playerSetup.sqf
 //	@file Author: [404] Deadbeat, simwah
 //	@file Created: 20/11/2012 05:19
@@ -77,6 +76,7 @@ _player setVariable["camonet",0,false];
 player setVariable["canDrop",false,false];
 
 [] execVM "client\functions\playerActions.sqf";
+[] execVM "addons\Backpacks\init.sqf";
 
 _player groupChat format["Player Initialization Complete"];
 playerSetupComplete = true;

@@ -73,6 +73,3 @@ sleep 1;
 true spawn playerSpawn;
 [] execVM "client\functions\antiCheatClient.sqf";
 [] spawn FZF_IC_INIT;
-
-//extra scripts
-[] execVM "addons\Backpacks\init.sqf";
