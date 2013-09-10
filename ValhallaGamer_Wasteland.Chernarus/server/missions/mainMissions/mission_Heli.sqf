@@ -32,7 +32,7 @@ diag_log format["WASTELAND SERVER - Main Mission Resumed: %1",_missionType];
 
 [_missionMarkerName,_randomPos,_missionType] call createClientMarker;
 
-_vehicleClass = ["UH1Y","CH_47F_BAF","AW159_Lynx_BAF","Mi171Sh_rockets_CZ_EP1"] call BIS_fnc_selectRandom;
+_vehicleClass = ["UH1Y","AW159_Lynx_BAF","Mi171Sh_rockets_CZ_EP1"] call BIS_fnc_selectRandom;
 
 //Vehicle Class, Posistion, Fuel, Ammo, Damage
 _vehicle = [_vehicleClass,_randomPos,0.25,1,0.50,"NONE"] call createMissionVehicle;
