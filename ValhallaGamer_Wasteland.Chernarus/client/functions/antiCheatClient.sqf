@@ -30,7 +30,7 @@ _bannedVehicles = [
     "C130J_US_EP1", "L159_ACR", "L39_ACR","L39_TK_EP1", "L39_TK_EP1", "MQ9PredatorB_US_EP1", "A10_US_EP1", "Chukar", "L39_2_ACR","T810A_Des_MG_ACR",
     "BTR90_HQ","GRAD_CDF","T810A_MG_ACR",
 	"GRAD_INS","GRAD_RU","GRAD_CDF","Ikarus","RM70_ACR",
-	"LAV25_HQ","2S6M_Tunguska","BMP2_Ambul_CDF","BMP2_CDF","2S6M_Tunguska","BMP2_Gue",
+	"LAV25_HQ","2S6M_Tunguska","BMP2_Ambul_CDF","2S6M_Tunguska","BMP2_Gue",
 	"BMP2_HQ_CDF","BMP2_HQ_INS","BMP2_INS","MLRS","AH64D_Sidewinders",
     "Ka52","Ka52Black", "Pandur2_ACR", "BVP1_TK_ACR", "BVP1_TK_GUE_ACR", "BRDM2_Desert_ACR", "BRDM2_ACR", "BMP2_ACR",
 	"Mi24_P","Mi24_V","Mi17_TK_EP1","Mi17_UN_CDF_EP1", "BMP2_Des_ACR",
