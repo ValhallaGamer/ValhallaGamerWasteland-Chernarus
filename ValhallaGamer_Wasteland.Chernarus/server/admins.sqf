@@ -1,7 +1,7 @@
 if(!X_Server) exitWith {};
 
 //Admin menu access levels
-moderators = [""
+moderators = ["15255494" //PabloElKillo
 				]; 
 publicVariable "moderators"; 
            
